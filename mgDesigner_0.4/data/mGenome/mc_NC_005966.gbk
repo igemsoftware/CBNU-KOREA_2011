@@ -1,0 +1,2115 @@
+LOCUS       mc_NC_005966           35564 bp    DNA     circular BCT 24-Jan-2011
+DEFINITION  Acinetobacter sp. ADP1, minimal genome.
+ACCESSION   mc_NC_005966
+VERSION     NC_005966.1  GI:50083297
+DBLINK      Project: 12352
+KEYWORDS    complete genome.
+SOURCE      Acinetobacter sp. mc_NC_005966
+  ORGANISM  Acinetobacter sp. ADP1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Moraxellaceae; Acinetobacter.
+REFERENCE   1  (bases 1 to 3598621)
+  AUTHORS   Barbe,V., Vallenet,D., Fonknechten,N., Kreimeyer,A., Oztas,S.,
+            Labarre,L., Cruveiller,S., Robert,C., Duprat,S., Wincker,P.,
+            Ornston,L.N., Weissenbach,J., Marliere,P., Cohen,G.N. and
+            Medigue,C.
+  TITLE     Unique features revealed by the genome sequence of Acinetobacter
+            sp. ADP1, a versatile and naturally transformation competent
+            bacterium
+  JOURNAL   Nucleic Acids Res. 32 (19), 5766-5779 (2004)
+   PUBMED   15514110
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 3598621)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-SEP-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 3598621)
+  AUTHORS   Barbe,V., Vallenet,D., Fonknechten,N., Kreimeyer,A., Oztas,S.,
+            Labarre,L., Cruveiller,S., Robert,C., Duprat,S., Wincker,P.,
+            Ornston,L.N., Weissenbach,J., Marliere,P., Cohen,G.N. and
+            Medigue,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JUN-2004) Genoscope, Centre National de Sequencage,
+            BP 191 Evry cedex 91006, France
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from CR543861.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..35564
+                     /organism="Acinetobacter sp. ADP1"
+                     /mol_type="genomic DNA"
+                     /strain="ADP1"
+                     /db_xref="taxon:62977"
+     gene            51..1199
+                     /gene="dnaN"
+                     /locus_tag="ACIAD0002"
+                     /db_xref="GeneID:2881058"
+     CDS             51..1199
+                     /gene="dnaN"
+                     /locus_tag="ACIAD0002"
+                     /EC_number="2.7.7.7"
+                     /function="DNA replication (MultiFun:2.1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type e : enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase III, beta chain"
+                     /protein_id="YP_044809.1"
+                     /db_xref="GI:50083299"
+                     /db_xref="GeneID:2881058"
+                     /translation="MRLKIAKESLLNVLSHVVGAVERRHTLNILSNVKIQANAQALTI
+                     TGSDLEVELVASTTLAEGACIEAGETTVPARKLVDICKSLPSAALIDLQITEDQRCIL
+                     KSGNSRFVLGTLPAEDYPLLTTESSQGTQVQVTQRELKRLFEKTSFAMAVQDVRFYLT
+                     GTLLEIDQNQLRAVTTDGHRLALCEVQASSTAMQAVQAIVPRKAVGELQRLLSIEDDQ
+                     LSLLIGRELLNVTINIANRDKEQHPITVRFTTKLIDGKFPDYRRVIPRGGDKHVQIAH
+                     DVFKQSLQRVAILSNEKLRGVFLNFNPDVLQLRANNPEQDEAIEDIAIQYQDASLEMS
+                     FNAQYLLDVLSVLDGDDVSMSMTEANQSVLVQDAAHPDQTYVVMPMRV"
+     misc_feature    1834..2979
+                     /gene="dnaN"
+                     /locus_tag="ACIAD0002"
+                     /note="DNA polymerase III subunit beta; Validated; Region:
+                     PRK05643"
+                     /db_xref="CDD:168148"
+     misc_feature    1834..2976
+                     /gene="dnaN"
+                     /locus_tag="ACIAD0002"
+                     /note="Beta clamp domain.  The beta subunit (processivity
+                     factor) of DNA polymerase III holoenzyme, refered to as
+                     the beta clamp, forms a ring shaped dimer that encircles
+                     dsDNA (sliding clamp) in bacteria.  The beta-clamp is
+                     structurally similar to the...; Region: beta_clamp;
+                     cd00140"
+                     /db_xref="CDD:29053"
+     misc_feature    order(1903..1905,2056..2058,2077..2079,2440..2442)
+                     /gene="dnaN"
+                     /locus_tag="ACIAD0002"
+                     /note="putative DNA binding surface; other site"
+                     /db_xref="CDD:29053"
+     misc_feature    order(2059..2061,2068..2070,2149..2151,2155..2157,
+                     2695..2697,2788..2793)
+                     /gene="dnaN"
+                     /locus_tag="ACIAD0002"
+                     /note="dimer interface; other site"
+                     /db_xref="CDD:29053"
+     misc_feature    order(2359..2361,2365..2376,2839..2841,2965..2976)
+                     /gene="dnaN"
+                     /locus_tag="ACIAD0002"
+                     /note="beta-clamp/clamp loader binding surface; other
+                     site"
+                     /db_xref="CDD:29053"
+     misc_feature    order(2359..2361,2365..2370,2620..2622,2725..2727,
+                     2764..2769,2848..2850,2965..2976)
+                     /gene="dnaN"
+                     /locus_tag="ACIAD0002"
+                     /note="beta-clamp/translesion DNA polymerase binding
+                     surface; other site"
+                     /db_xref="CDD:29053"
+     gene            1300..3768
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /db_xref="GeneID:2879253"
+     CDS             1300..3768
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /EC_number="5.99.1.3"
+                     /function="DNA bending, supercoiling, inversion
+                     (MultiFun:3.1.1.1)"
+                     /function="DNA replication (MultiFun:2.1.1)"
+                     /function="transcription related (MultiFun:2.2.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type e : enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA gyrase, subunit B (type II topoisomerase)"
+                     /protein_id="YP_044811.1"
+                     /db_xref="GI:50083301"
+                     /db_xref="GeneID:2879253"
+                     /translation="MSSESQSASPTEQTIEKAYDSSSIKVLRGLDAVRKRPGMYIGDT
+                     DDGTGLHHMVFEVVDNAIDEALAGHCDEIIVTIHEDESVSVSDNGRGIPTDIHPEEGV
+                     SAAEVILTILHAGGKFDDNSYKVSGGLHGVGVSVVNALSSKLQLTIHRAGQIHEQEYQ
+                     HGDPQYPLKVVGETSTTGTTVRFWPSGDTFSQTIFNVDILARRLRELSFLNAGVKIVL
+                     RDERVNFEHIYAYEGGLSEFVKYINEGKNHLNDIFHFTADSDNGIAVEVALQWNDSYQ
+                     ENVRCFTNNIPQKDGGTHLAGFRAALTRGLNSYLENENILKKEKVNVSGDDAREGLTA
+                     IISVKVPDPKFSSQTKEKLVSSEVKPAVEQAMNKEFSAYLLENPQAAKSIAGKIIDAA
+                     RARDAARKAREMTRRKSALDIAGLPGKLADCQEKDPALSELYLVEGDSAGGSAKQGRN
+                     RKMQAILPLKGKILNVERARFDKMISSQEVGTLITALGCGIGREEYNPDKLRYHKIII
+                     MTDADVDGSHIRTLLLTFFFRQMPELVERGHIYIAQPPLYKLKKGKQEQYIKDNDALE
+                     TFLISNAIDDLALHISAEAPAITGEALAKVIDDYKISQKSLQRLTQRYPATLLDGLLE
+                     VEPFKADLSHDRPYVEQWAEQLGQVIAKLQPSLRPEVSLESFERESPTGETSIHCWPR
+                     ITVYVHNLPHHYLLDAGLLNSAEYARLLKNSKSWFKLLEEGAYLQKGERRIQVSNFHQ
+                     VWQQILQDSRRGMMIQRYKGLGEMNAEQLWETTMDPDNRHMLQVTIDDAIEADRMFSC
+                     LMGDDVEPRRAFIEENALNADIDA"
+     misc_feature    4157..6589
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /note="DNA gyrase subunit B; Validated; Region: gyrB;
+                     PRK05644"
+                     /db_xref="CDD:168149"
+     misc_feature    4274..>4423
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /note="Histidine kinase-like ATPases; This family includes
+                     several ATP-binding proteins for example: histidine
+                     kinase, DNA gyrase B, topoisomerases, heat shock protein
+                     HSP90, phytochrome-like ATPases and DNA mismatch repair
+                     proteins; Region: HATPase_c; cd00075"
+                     /db_xref="CDD:28956"
+     misc_feature    4304..4306
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /note="Mg2+ binding site; other site"
+                     /db_xref="CDD:28956"
+     misc_feature    order(4391..4393,4397..4399)
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /note="G-X-G motif; other site"
+                     /db_xref="CDD:28956"
+     misc_feature    4823..5284
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /note="TopoIIA_Trans_DNA_gyrase: Transducer domain, having
+                     a ribosomal S5 domain 2-like fold, of the type found in
+                     proteins of the type IIA family of DNA topoisomerases
+                     similar to the B subunits of E. coli DNA gyrase and E.
+                     coli Topoisomerase IV which are...; Region:
+                     TopoII_Trans_DNA_gyrase; cd00822"
+                     /db_xref="CDD:48467"
+     misc_feature    4976..4978
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /note="anchoring element; other site"
+                     /db_xref="CDD:48467"
+     misc_feature    order(5150..5152,5159..5164,5168..5170)
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /note="dimer interface; other site"
+                     /db_xref="CDD:48467"
+     misc_feature    order(5168..5170,5174..5176)
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /note="ATP binding site; other site"
+                     /db_xref="CDD:48467"
+     misc_feature    5417..5761
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /note="TOPRIM_TopoIIA_GyrB: topoisomerase-primase (TOPRIM)
+                     nucleotidyl transferase/hydrolase domain of the type found
+                     in proteins of the type IIA family of DNA topoisomerases
+                     similar to the Escherichia coli GyrB subunit. TopoIIA
+                     enzymes cut both strands of...; Region:
+                     TOPRIM_TopoIIA_GyrB; cd03366"
+                     /db_xref="CDD:173786"
+     misc_feature    order(5435..5440,5447..5449,5657..5659,5663..5665,
+                     5669..5671)
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /note="active site"
+                     /db_xref="CDD:173786"
+     misc_feature    order(5435..5437,5657..5659)
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /note="putative metal-binding site; other site"
+                     /db_xref="CDD:173786"
+     misc_feature    6371..6562
+                     /gene="gyrB"
+                     /locus_tag="ACIAD0004"
+                     /note="DNA gyrase B subunit, carboxyl terminus; Region:
+                     DNA_gyraseB_C; pfam00986"
+                     /db_xref="CDD:144542"
+     gene            3869..6085
+                     /gene="parC"
+                     /locus_tag="ACIAD0234"
+                     /db_xref="GeneID:2880501"
+     CDS             3869..6085
+                     /gene="parC"
+                     /locus_tag="ACIAD0234"
+                     /EC_number="5.99.1.-"
+                     /function="DNA bending, supercoiling, inversion
+                     (MultiFun:3.1.1.1)"
+                     /function="DNA replication (MultiFun:2.1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="decatenates newly replicated chromosomal DNA and
+                     relaxes positive and negative DNA supercoiling"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA topoisomerase IV subunit A"
+                     /protein_id="YP_045023.1"
+                     /db_xref="GI:50083513"
+                     /db_xref="GeneID:2880501"
+                     /translation="MTSLAHHATENRSVAEFTEQAYLNYAMYVIMDRALPHISDGLKP
+                     VQRRIVYAMSELGLKSTGKPKKSARTVGDVLGKYHPHGDSACYEAMVLMAQPFSYRYP
+                     LVEGQGNWGSPDDPKSFAAMRYTEAKLSAYSELLLSELGQGTVDWQDNFDGSLKEPIN
+                     LPARVPNILLNGTMGIAVGMATDIPPHNLREVVKGTIALIRNPETTDEKLAEYIPAPD
+                     LPTKAEIITPKDELLKIQTTGRGSYRARAVYHIDKNEIVITELPYQVSGSKVITQIAD
+                     QMQAKKLPLVSDVRDESDHRNPTRLVIVLRSNRVDAAAVMSHLFATTDLETSYRVNLN
+                     MIGSDGRPQVKSIRRILLEWIEIRKTTVTRRLQYHLNKIEKRLHILAGLLIAYLDIDT
+                     VIKIIREEDQPKPVLMQHFNIDEIQAEAILELKLRHLAKLEEMEIRREQEELEARAAV
+                     IREQLGNPESLKNLIINELKEDAKKFGDDRRSPIVQREEAVQIREQDLLPAETVTVVL
+                     SEAGWIRSAKGEVDAENLNYRAGDQYQSHAIGKSNQRVYVLDETGRSYALSIGNLPSA
+                     RGLGEPLSSKLSPANGVSFIQVYINDEESELIAVSDAGYGFKTQTKQLDTNAKAGKAF
+                     LSVPEGAKALPLLTIRDATHLAMLSSSGRLLIVDLSELPILNKGKGNKLIQLDDKDQI
+                     LSMTLLSLNEIIQVVAGQQHLKIKGDDLQKYMGKRATKGQLLPRGYQKANRLLIQR"
+     misc_feature    233653..235860
+                     /gene="parC"
+                     /locus_tag="ACIAD0234"
+                     /note="DNA topoisomerase IV subunit A; Validated; Region:
+                     PRK05561"
+                     /db_xref="CDD:168096"
+     misc_feature    233743..235065
+                     /gene="parC"
+                     /locus_tag="ACIAD0234"
+                     /note="DNA Topoisomerase, subtype IIA; domain A';
+                     bacterial DNA topoisomerase IV (C subunit, ParC),
+                     bacterial DNA gyrases (A subunit, GyrA),mammalian DNA
+                     toposiomerases II. DNA topoisomerases are essential
+                     enzymes that regulate the conformational changes in...;
+                     Region: TOP4c; cd00187"
+                     /db_xref="CDD:29149"
+     misc_feature    order(233743..233826,233839..233988,233992..233997,
+                     234001..234051,234055..234126,234133..234135)
+                     /gene="parC"
+                     /locus_tag="ACIAD0234"
+                     /note="CAP-like domain; other site"
+                     /db_xref="CDD:29149"
+     misc_feature    234022..234024
+                     /gene="parC"
+                     /locus_tag="ACIAD0234"
+                     /note="active site"
+                     /db_xref="CDD:29149"
+     misc_feature    order(234814..234822,234829..234840,234862..234867,
+                     234907..234957)
+                     /gene="parC"
+                     /locus_tag="ACIAD0234"
+                     /note="primary dimer interface; other site"
+                     /db_xref="CDD:29149"
+     misc_feature    235582..235719
+                     /gene="parC"
+                     /locus_tag="ACIAD0234"
+                     /note="DNA gyrase C-terminal domain, beta-propeller;
+                     Region: DNA_gyraseA_C; pfam03989"
+                     /db_xref="CDD:146561"
+     gene            6186..8831
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /db_xref="GeneID:2880724"
+     CDS             6186..8831
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /EC_number="5.99.1.2"
+                     /function="DNA bending, supercoiling, inversion
+                     (MultiFun:3.1.1.1)"
+                     /function="DNA replication (MultiFun:2.1.1)"
+                     /function="transcription related (MultiFun:2.2.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="catalyzes the ATP-dependent breakage of
+                     single-stranded DNA followed by passage and rejoining,
+                     maintains net negative superhelicity"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA topoisomerase I"
+                     /protein_id="YP_045242.1"
+                     /db_xref="GI:50083732"
+                     /db_xref="GeneID:2880724"
+                     /translation="MANAPRSTTKKSTTASSEPAGNKRALVIVESPAKAKTINKYLGS
+                     QYIVKSSVGHVRDLPTGGSAKSGEKKPATRAKLTAEEKEQKAQNALINRMGVDPEHDW
+                     KAHYEVLPGKEHVVAELKKLASQVDEVYLATDLDREGEAIAWHLKEVIGGDDSRYQRV
+                     VFNEITKNAIQEAFKHPARLDTNKVNAQQARRFLDRVVGFMISPLLWEKIARGLSAGR
+                     VQSVAVKLVVERERDIRAFIPEEYWQIFADTLSKKDQIRLEAVKQAGKTLKLRNKADT
+                     DAVLNLLKDAEYKVAQREDKPTKVNPSAPYITSTLQQAASTRLGFSVKKTMMLAQRLY
+                     EGGFITYMRTDSTFLSDDAVNMVRDHIQQQFGDKYVPAKPNRYGNKAGAQEAHEAIRP
+                     SNVALTGDQLAGMERDAQRLYDLIWRQFVACQMTPAEYLSSTLIVDANNVELRAKGRT
+                     LVFDGFTRVRGANKSDDDVLLPAVKVGETLKLEKLDPSQHFTKPPARFTEASLVKELE
+                     KRGIGRPSTYAAIISTIQDRGYVKLENRRLFAEKMGEIVTDRLDESFNNLMNYAFTAD
+                     LEGQLDKVATGERNWKELLDSFYGDFKNRLNMAASTEGMRRNQPVEVPDVACQLCSRP
+                     MQIRTGTTGVFLGCSGYNLPPKERCKGTLNLTPVESLAAFSDDDSAETADLMAKHRCA
+                     KCGTAMDSYVIDGGRKLHVCGNNPDCDGYEVEEGEFKIKGYDGPTIPCDKCDGEMQLK
+                     TGRFGPYFACTSCDNTRKVLKSGQPAPPRVDPIKMEHLRSVKHDDYFVLRDGAAGLFL
+                     AASKFPKIRETRAPKVAELRTVAEQLDPKYQYLLQAPDADPEGNPALIKFSRKNQAQY
+                     VGSETPEGKQTKWSLVYQDGKWTEA"
+     misc_feature    484998..487568
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="DNA topoisomerase I; Validated; Region: PRK09001"
+                     /db_xref="CDD:169614"
+     misc_feature    485004..485459
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="TOPRIM_TopoIA_TopoI: The topoisomerase-primase
+                     (TORPIM) domain found in members of the type IA family of
+                     DNA topoisomerases (Topo IA) similar to Escherichia coli
+                     DNA topoisomerase I.   Type IA DNA topoisomerases remove
+                     (relax) negative supercoils in...; Region:
+                     TOPRIM_TopoIA_TopoI; cd03363"
+                     /db_xref="CDD:173783"
+     misc_feature    order(485016..485021,485028..485030,485328..485330,
+                     485334..485336,485340..485342)
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="active site"
+                     /db_xref="CDD:173783"
+     misc_feature    order(485037..485039,485331..485333,485337..485339,
+                     485358..485363,485367..485372)
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="interdomain interaction site; other site"
+                     /db_xref="CDD:173783"
+     misc_feature    order(485328..485330,485334..485336)
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="putative metal-binding site; other site"
+                     /db_xref="CDD:173783"
+     misc_feature    485337..485339
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="nucleotide binding site; other site"
+                     /db_xref="CDD:173783"
+     misc_feature    485472..486707
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="DNA Topoisomerase, subtype IA; DNA-binding,
+                     ATP-binding and catalytic domain of bacterial DNA
+                     topoisomerases I and III, and eukaryotic DNA topoisomerase
+                     III and eubacterial and archael reverse gyrases.
+                     Topoisomerases clevage single or double stranded...;
+                     Region: TOP1Ac; cd00186"
+                     /db_xref="CDD:73184"
+     misc_feature    order(485472..485555,485568..485630)
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="domain I; other site"
+                     /db_xref="CDD:73184"
+     misc_feature    order(485499..485504,485511..485513,485523..485525,
+                     485535..485537,485919..485921,485931..485933,
+                     485955..485957,486474..486479,486486..486491,
+                     486495..486497,486507..486512)
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="DNA binding groove"
+                     /db_xref="CDD:73184"
+     misc_feature    order(485601..485603,485613..485615,486582..486584)
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="phosphate binding site; other site"
+                     /db_xref="CDD:73184"
+     misc_feature    order(485643..485663,485784..485831,486204..486248,
+                     486252..486308,486375..486407)
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="domain II; other site"
+                     /db_xref="CDD:73184"
+     misc_feature    order(485832..485852,485856..486023,486084..486110,
+                     486141..486203)
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="domain III; other site"
+                     /db_xref="CDD:73184"
+     misc_feature    order(485865..485867,485877..485885,486087..486089,
+                     486159..486161,486168..486170,486180..486182,
+                     486468..486470,486474..486476,486540..486542)
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="nucleotide binding site; other site"
+                     /db_xref="CDD:73184"
+     misc_feature    order(485949..485951,485955..485957,486087..486089)
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="catalytic site; other site"
+                     /db_xref="CDD:73184"
+     misc_feature    order(486408..486530,486540..486584,486600..486707)
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="domain IV; other site"
+                     /db_xref="CDD:73184"
+     misc_feature    487116..487214
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="Topoisomerase DNA binding C4 zinc finger; Region:
+                     zf-C4_Topoisom; cl11977"
+                     /db_xref="CDD:143760"
+     misc_feature    487248..487364
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="Topoisomerase I zinc-ribbon-like; Region:
+                     Topo_Zn_Ribbon; pfam08272"
+                     /db_xref="CDD:149367"
+     misc_feature    487449..487571
+                     /gene="topA"
+                     /locus_tag="ACIAD0493"
+                     /note="Topoisomerase I zinc-ribbon-like; Region:
+                     Topo_Zn_Ribbon; pfam08272"
+                     /db_xref="CDD:149367"
+     gene            8932..10962
+                     /gene="ligA"
+                     /locus_tag="ACIAD0848"
+                     /db_xref="GeneID:2881106"
+     CDS             8932..10962
+                     /gene="ligA"
+                     /locus_tag="ACIAD0848"
+                     /EC_number="6.5.1.2"
+                     /function="DNA repair (MultiFun:2.1.4)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type e : enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA ligase"
+                     /protein_id="YP_045570.1"
+                     /db_xref="GI:50084060"
+                     /db_xref="GeneID:2881106"
+                     /translation="MMQPADIVAQMRQLIQLIAKHNHAYYVMDQPSITDNEYDQLFHQ
+                     LKALEAEYPELTQADTPTNRVGGQALSKFETVTHAVPMLSLGNVFNQEDLFAFARRIE
+                     ERLPNQQIQYDVELKLDGLAISLWYENGVLVRGVTRGDGETGEDITQNVKTIRNLPKH
+                     LQHHSVETPRFLEVRGEVLMPKQGFERLNAANEAKGEKTFANPRNAAAGSLRQLDPAI
+                     AASRPLAFYAYGIAQCEPHHGLGSMHESLQWLTQLGFEIAERQFLCSSIQEVQQCYEQ
+                     IQQERPDLAVEIDGMVIKVDDLKQQQQLGFLSREPRWATAYKFPAEVAMTTVENIDWQ
+                     VGRTGTLTPVARLQPVFVGGVTVSNVTLHNIGEIHRLDVRVGDRVSVYRSGDVIPKVE
+                     KVWPEFRPELAEIVQLPEQCPVCSSPVVMPEGEALARCSGGLYCAAQRIEAIRHFVSR
+                     KALDIEGLGDRWVESLLHLDLLKDVADIYHLHEHREQLLTIEKMGEKSVQNLMDAIEA
+                     SKKTTLARFIYALGIRGVGETTARMLANTFQTLDALKQADIEALKKTPDVGDITAEWI
+                     YDFFLAEHNIEVLDRLLAAGIHWDAPLAPTRQPLNGESWVVTGTLETMGRDEATQRLQ
+                     ALGARVSGSVSSKTKCVVAGEKAGSKLDKAEKLQIRVMNEQEFLAFLAQYSA"
+     misc_feature    835739..837751
+                     /gene="ligA"
+                     /locus_tag="ACIAD0848"
+                     /note="NAD-dependent DNA ligase LigA; Validated; Region:
+                     ligA; PRK07956"
+                     /db_xref="CDD:169167"
+     misc_feature    835754..836692
+                     /gene="ligA"
+                     /locus_tag="ACIAD0848"
+                     /note="NAD+ dependent DNA ligase adenylation domain. DNA
+                     ligases catalyze the crucial step of joining the breaks in
+                     duplex DNA during DNA replication, repair and
+                     recombination, utilizing either ATP or NAD(+) as a
+                     cofactor, but using the same basic reaction...; Region:
+                     LIGANc; cd00114"
+                     /db_xref="CDD:29013"
+     misc_feature    order(835982..835984,836072..836074,836078..836080,
+                     836141..836143,836258..836260,836414..836416,
+                     836603..836605,836609..836611)
+                     /gene="ligA"
+                     /locus_tag="ACIAD0848"
+                     /note="nucleotide binding pocket; other site"
+                     /db_xref="CDD:29013"
+     misc_feature    order(836078..836080,836084..836089)
+                     /gene="ligA"
+                     /locus_tag="ACIAD0848"
+                     /note="K-X-D-G motif; other site"
+                     /db_xref="CDD:29013"
+     misc_feature    836078..836080
+                     /gene="ligA"
+                     /locus_tag="ACIAD0848"
+                     /note="catalytic site; other site"
+                     /db_xref="CDD:29013"
+     misc_feature    836699..836932
+                     /gene="ligA"
+                     /locus_tag="ACIAD0848"
+                     /note="NAD-dependent DNA ligase OB-fold domain; Region:
+                     DNA_ligase_OB; pfam03120"
+                     /db_xref="CDD:145978"
+     misc_feature    836960..837043
+                     /gene="ligA"
+                     /locus_tag="ACIAD0848"
+                     /note="NAD-dependent DNA ligase C4 zinc finger domain;
+                     Region: DNA_ligase_ZBD; pfam03119"
+                     /db_xref="CDD:145977"
+     misc_feature    837545..837736
+                     /gene="ligA"
+                     /locus_tag="ACIAD0848"
+                     /note="Breast Cancer Suppressor Protein (BRCA1),
+                     carboxy-terminal domain. The BRCT domain is found within
+                     many DNA damage repair and cell cycle checkpoint proteins.
+                     The unique diversity of this domain superfamily allows
+                     BRCT modules to interact forming homo/...; Region: BRCT;
+                     cd00027"
+                     /db_xref="CDD:28909"
+     misc_feature    order(837578..837580,837590..837592,837599..837601,
+                     837608..837610,837614..837616)
+                     /gene="ligA"
+                     /locus_tag="ACIAD0848"
+                     /note="Dimer interface; other site"
+                     /db_xref="CDD:28909"
+     misc_feature    837725..837727
+                     /gene="ligA"
+                     /locus_tag="ACIAD0848"
+                     /note="BRCT sequence motif; other site"
+                     /db_xref="CDD:28909"
+     gene            11063..13102
+                     /gene="rep"
+                     /locus_tag="ACIAD0900"
+                     /db_xref="GeneID:2880861"
+     CDS             11063..13102
+                     /gene="rep"
+                     /locus_tag="ACIAD0900"
+                     /EC_number="3.6.1.-"
+                     /function="DNA replication (MultiFun:2.1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type e : enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ATP-dependent DNA helicase"
+                     /protein_id="YP_045619.1"
+                     /db_xref="GI:50084109"
+                     /db_xref="GeneID:2880861"
+                     /translation="MSAASHLNDKQQEAMKYTQGPLLVLAGAGSGKTSVITQKIAYLV
+                     KQCRIPAHRITAMTFTNKAAREMKERVAKLLSREDAKGLSVSTFHTFGLNLLRLELKH
+                     TPLKNNFSILDSDDCKRILMDLMQRDNLSGAESKELIAKAMKKISDWKNDLIVPEQAH
+                     STCETVEDVQFAHLYQLYERNLRAYNAVDFDDLIVLPTRLLQENAEVRDKWQNRTRYL
+                     LVDEYQDTNTAQYILVKLLVGVMGQFTAVGDDDQSIYAWRGAKPENMALLKEDFPNLK
+                     VIKLEQNYRSTSRILKAANAVIENNPHIFDKKLWSDKGHGEVIRIITCRNDDDESERV
+                     VKDLMTHKLMNGKNWKDYAVLYRGNFQARVLETQLRQMQIPYKLSGGQSFFARAEIKD
+                     VMSYLRLIINPEDDSAFLRIINTPKRAIGPVTLEKLGLFSQENHLSLLAAAADQRLSM
+                     VIPKKAASQLHEFADFITTFTRELLDDDEPVPKVRQMMNEAGYIDYIREQAATPAQEK
+                     TKLDNIESLFSSIQNLLNRTEDVDEKNIESVIRKLVLLDMLEQQQEEEDTDKVNLLTL
+                     HAAKGLEFPFVYIMGLEEELLPHKNSIAADTIEEERRLMYVGITRARQGLTLTLAEQR
+                     KNGGQMKQMTPSRFLDELPQDELEWLGRKKKLAGNVDPKEQAQQYLANLKALLKK"
+     misc_feature    882772..884775
+                     /gene="rep"
+                     /locus_tag="ACIAD0900"
+                     /note="ATP-dependent DNA helicase Rep; Region: rep;
+                     TIGR01074"
+                     /db_xref="CDD:130146"
+     misc_feature    882772..884169
+                     /gene="rep"
+                     /locus_tag="ACIAD0900"
+                     /note="UvrD/REP helicase; Region: UvrD-helicase; cl14126"
+                     /db_xref="CDD:175496"
+     gene            complement(13203..14555)
+                     /gene="rnhA-dnaQ"
+                     /locus_tag="ACIAD1137"
+                     /db_xref="GeneID:2879509"
+     CDS             complement(13203..14555)
+                     /gene="rnhA-dnaQ"
+                     /locus_tag="ACIAD1137"
+                     /EC_number="2.7.7.7"
+                     /EC_number="3.1.26.4"
+                     /function="DNA replication (MultiFun:2.1.1)"
+                     /function="RNA (MultiFun:1.2.1)"
+                     /function="chaperoning, folding (MultiFun:2.3.4)"
+                     /function="turnover, degradation (MultiFun:2.3.6)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type e : enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="bifunctional ribonuclease HI/DNA polymerase III
+                     subunit epsilon"
+                     /protein_id="YP_045841.1"
+                     /db_xref="GI:50084331"
+                     /db_xref="GeneID:2879509"
+                     /translation="MSQTITLYVDGACKGNPGLGGWGAYVITEQGEHKLCGGEAETTN
+                     NRMELTAAIEGIRFCPQDASLIIWTDSNYVKQGITEWIHGWKKKNWKDVKNPDLWQIL
+                     DQLCQGRQIEWNWIKGHAGHAGNEMADELANLGASQTAAQLKSGSVAAIDKKKPQNDW
+                     LLDDPFGFDMMTNDMDTDDTLQETELQKHVDPRLENEIPETSTESLHPQIVMTPAKIQ
+                     AQGPRQLILDTETTGFYFQDGDRIIEVGAIEMINRKLTGSSIHIYINPEKPVGDSVDV
+                     HGITDEFLLDKPKYAEIAEPLFEYLKGAEIIAHNASFDMNFLDMEFKRAGLPTLSEVC
+                     EVTDTLALAKNKHPGQKNSLDALVRRYEIPARDRTFHGALLDAEILSDVYLAMTGGQV
+                     SFDMDALSQREQNQRKGQRARIEADLPVIRPSANELEKHNEWVKSYQEKNGEPCLFAK"
+     misc_feature    complement(1125089..1125481)
+                     /gene="rnhA-dnaQ"
+                     /locus_tag="ACIAD1137"
+                     /note="RNase H (RNase HI) is an endonuclease that cleaves
+                     the RNA strand of an RNA/DNA hybrid in a not
+                     sequence-specific manner. One of the important functions
+                     of RNase H is to remove Okazaki fragments during DNA
+                     replication.  RNase H knockout mice lack...; Region:
+                     RnaseH; cd06222"
+                     /db_xref="CDD:119393"
+     misc_feature    complement(order(1125098..1125100,1125152..1125154,
+                     1125287..1125289,1125353..1125355,1125362..1125370,
+                     1125458..1125469))
+                     /gene="rnhA-dnaQ"
+                     /locus_tag="ACIAD1137"
+                     /note="RNA/DNA hybrid binding site; other site"
+                     /db_xref="CDD:119393"
+     misc_feature    complement(order(1125110..1125112,1125287..1125289,
+                     1125353..1125355,1125467..1125469))
+                     /gene="rnhA-dnaQ"
+                     /locus_tag="ACIAD1137"
+                     /note="active site"
+                     /db_xref="CDD:119393"
+     misc_feature    complement(1124192..1124830)
+                     /gene="rnhA-dnaQ"
+                     /locus_tag="ACIAD1137"
+                     /note="Proteobacterial; Region: dnaQ_proteo; TIGR01406"
+                     /db_xref="CDD:130473"
+     misc_feature    complement(1124333..1124827)
+                     /gene="rnhA-dnaQ"
+                     /locus_tag="ACIAD1137"
+                     /note="DEDDh 3'-5' exonuclease domain of the epsilon
+                     subunit of Escherichia coli DNA polymerase III and similar
+                     proteins; Region: DNA_pol_III_epsilon_Ecoli_like; cd06131"
+                     /db_xref="CDD:99835"
+     misc_feature    complement(order(1124369..1124371,1124384..1124386,
+                     1124393..1124395,1124435..1124440,1124555..1124563,
+                     1124567..1124572,1124666..1124671,1124678..1124683,
+                     1124795..1124800,1124804..1124815))
+                     /gene="rnhA-dnaQ"
+                     /locus_tag="ACIAD1137"
+                     /note="active site"
+                     /db_xref="CDD:99835"
+     misc_feature    complement(order(1124369..1124371,1124384..1124386,
+                     1124393..1124395,1124435..1124440,1124558..1124563,
+                     1124567..1124572,1124666..1124671,1124678..1124683,
+                     1124795..1124800,1124804..1124815))
+                     /gene="rnhA-dnaQ"
+                     /locus_tag="ACIAD1137"
+                     /note="substrate binding site; other site"
+                     /db_xref="CDD:99835"
+     misc_feature    complement(order(1124369..1124371,1124384..1124386,
+                     1124555..1124557,1124807..1124809,1124813..1124815))
+                     /gene="rnhA-dnaQ"
+                     /locus_tag="ACIAD1137"
+                     /note="catalytic site; other site"
+                     /db_xref="CDD:99835"
+     gene            complement(14656..16791)
+                     /gene="dnaX"
+                     /locus_tag="ACIAD1970"
+                     /db_xref="GeneID:2881059"
+     CDS             complement(14656..16791)
+                     /gene="dnaX"
+                     /locus_tag="ACIAD1970"
+                     /EC_number="2.7.7.7"
+                     /function="DNA replication (MultiFun:2.1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type e : enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase III, tau and gamma subunits (DNA
+                     elongation factor III)"
+                     /protein_id="YP_046618.1"
+                     /db_xref="GI:50085108"
+                     /db_xref="GeneID:2881059"
+                     /translation="MYQVLARKYRPRNFIELVGQNHVSRALTSALERGRLHHAYLFTG
+                     TRGVGKTTIARILAKCLNCETGITSTPCEVCATCKAVNEGRFIDLIEIDAASRTKVED
+                     TRELLDNVPYAPTQGRFKVYLIDEVHMLSTHSFNALLKTLEEPPEHVKFLFATTDPQK
+                     LPITVISRCLQFTLRPLAVDEITSHLTTILAKEQIEADKDAIWQIAESAQGSLRDALS
+                     LTDQAIAYGQGAVHHQDVKEMLGLIDRTIIYDLILAIHQNQTARVSQLLMQFRQQALD
+                     VSLVLDQLISTLHELALLQYLPELSLKYSEEINQKILKLAKIVSAQDLQLYYQIACKG
+                     RSELQLSVTQEQGFEMCVLRLLAFRPLSIDEVTVHASSQPSELQINQLPPAADSETDS
+                     SSRSELQHTNNRIEPDLEGSVVISVISQEAESFEAEQVVNHTTDDCQTAKTRQNKDVS
+                     SAVVEAEQENILVFNANSDDIVGIEQNKTAVVLAAQDMPFFPVEEERQIANHQHIALP
+                     AERVEQADTYQPEPHQVTQPISDSSSEESSLDALADDESTPLIDLSIDTNEHKVQVTS
+                     AANDLEVMPQDILKLAEQELEGEWTLEKWEYWFRTSQLSPAVQELAQYGLMSGNIDGI
+                     CTFNIPQQYEGMLSQLQHALESEVKSRWPNTQFTVKYGKVNEITPYIKQIERKEKAFQ
+                     RAIDLLQQNPVVKDLLNTFDGQLQNIQLK"
+     misc_feature    complement(1958992..1960056)
+                     /gene="dnaX"
+                     /locus_tag="ACIAD1970"
+                     /note="DNA polymerase III, subunit gamma and tau; Region:
+                     dnaX_nterm; TIGR02397"
+                     /db_xref="CDD:162839"
+     misc_feature    complement(1959553..1960008)
+                     /gene="dnaX"
+                     /locus_tag="ACIAD1970"
+                     /note="The AAA+ (ATPases Associated with a wide variety of
+                     cellular Activities) superfamily represents an ancient
+                     group of ATPases belonging to the ASCE (for additional
+                     strand, catalytic E) division of the P-loop NTPase fold.
+                     The ASCE division also includes...; Region: AAA; cd00009"
+                     /db_xref="CDD:99707"
+     misc_feature    complement(1959907..1959930)
+                     /gene="dnaX"
+                     /locus_tag="ACIAD1970"
+                     /note="Walker A motif; other site"
+                     /db_xref="CDD:99707"
+     misc_feature    complement(order(1959592..1959594,1959685..1959687,
+                     1959904..1959927))
+                     /gene="dnaX"
+                     /locus_tag="ACIAD1970"
+                     /note="ATP binding site; other site"
+                     /db_xref="CDD:99707"
+     misc_feature    complement(1959403..>1959699)
+                     /gene="dnaX"
+                     /locus_tag="ACIAD1970"
+                     /note="P-loop containing Nucleoside Triphosphate
+                     Hydrolases; Region: P-loop NTPase; cl09099"
+                     /db_xref="CDD:158411"
+     misc_feature    complement(1959682..1959699)
+                     /gene="dnaX"
+                     /locus_tag="ACIAD1970"
+                     /note="Walker B motif; other site"
+                     /db_xref="CDD:99707"
+     misc_feature    complement(1959556..1959558)
+                     /gene="dnaX"
+                     /locus_tag="ACIAD1970"
+                     /note="arginine finger; other site"
+                     /db_xref="CDD:99707"
+     misc_feature    complement(1958977..1959357)
+                     /gene="dnaX"
+                     /locus_tag="ACIAD1970"
+                     /note="DNA polymerase III subunits gamma and tau domain
+                     III; Region: DNA_pol3_gamma3; pfam12169"
+                     /db_xref="CDD:152604"
+     gene            16892..20455
+                     /gene="dnaE"
+                     /locus_tag="ACIAD2089"
+                     /db_xref="GeneID:2881054"
+     CDS             16892..20455
+                     /gene="dnaE"
+                     /locus_tag="ACIAD2089"
+                     /EC_number="2.7.7.7"
+                     /function="DNA replication (MultiFun:2.1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type e : enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase III, alpha chain"
+                     /protein_id="YP_046720.1"
+                     /db_xref="GI:50085210"
+                     /db_xref="GeneID:2881054"
+                     /translation="MQFVHLGIHTEFSITESIVRIPDLIKAAVQDDMPALALTDLSNL
+                     HAAVKFYTSCLKKGIKPILGSVVRLNDPEHRITLLAMTNDGWKGLTEIVSRGHIEGQQ
+                     LSIPCVQKEWILEQHQDIIVLLGQHSDVGKMLCSSNPQKAEPLLQAWQEKFGNRVYIA
+                     LTRTQRAGEEDYMVEAVKLAAKYNIGVVAHNDVHFIERDDFDAHEARVCIADGYVLAD
+                     HRRPRIYSSEQYFKTASEMEELFSDIPSAIENTYYIAQRCNVSLQLGTYFLPDYPIPD
+                     GFTIDTYFEHLSKEGLEERLNHLYPIETRDQDWPEIRKPYDERIEYEVGIILKMGFPG
+                     YFLIVMDFIQWAKSNGVPVGPGRGSGAGSLVAYSLKITDLDPLRYDLLFERFLNPERV
+                     SMPDFDVDFCIAGRDRVIDYVSRTYGREAVSQIATFGTMAAKGAIRDVARVLGKSYGL
+                     ADRISKMVPTKPLGVDLKQAIEMEPQLKDIVTNPSNPDNDDAAEIWEMALKLEGITRN
+                     TGKHAGGVVIAPGKITDYSAVLCDADGTNRVAQYDKDDVEAAGLVKFDFLGLRNLTVI
+                     EDAVQNINKRIQSEIPLDIANVPLDDKDAYLVFADANTTAVFQFESVGMKKMLKEARP
+                     SKFEEIIAFVSLYRPGPMDLIPDFIHRMHGGEFEYLHPLLESVLEPTYGIMVYQEQVM
+                     QAAQFCAGYTLGGADLLRRAMGKKKPEEMVKQRQIFIKGAAEKEIDEATANHIFDYME
+                     KFAGYGFNKSHAAAYALVAYHTAWLKAHYPAEFMAAVLSSEMQNTDSIVFLIDDCRNN
+                     ALEVLPPSVNMSLYHFHASDERTIVYGLGAIKGVGEQAMQSVIDSRIKNGPYTDLFDF
+                     CHRIDLKKINKRTLEALIRAGALDCLQIERSSLMAQLPEAVQAAEQARQNRETGIMDL
+                     FGEVEEVQRKPAKPVKPWSDEVRLKGEKDTLGLYLTGHPIDVYRPELKSFIPAKLNEV
+                     TPTRRGVTTVFAGLVLDVANFPNRMVITLDDGTARIEVSCNHERFQRFKDIVVVEQVV
+                     VIEGEIYEREGFDRPMARLSKAFSLNEIRQKRANHIRIQPAEEQISKTLAHDLQNIIL
+                     PFCNVDMCQHIPVMLTLEQPYATAEVHLGQNWKVAPLDELLIKLRDYFGKDAIYIEYQ
+                     VKSKAAKAAEPVRSAPLSPPPQDISMDEAMDLYQAEVSQYS"
+     misc_feature    2072315..2075746
+                     /gene="dnaE"
+                     /locus_tag="ACIAD2089"
+                     /note="DNA polymerase III subunit alpha; Validated;
+                     Region: dnaE; PRK05673"
+                     /db_xref="CDD:168167"
+     misc_feature    2072327..2072506
+                     /gene="dnaE"
+                     /locus_tag="ACIAD2089"
+                     /note="DNA polymerase alpha chain like domain; Region:
+                     POLIIIAc; cl02625"
+                     /db_xref="CDD:174726"
+     misc_feature    2073161..2074489
+                     /gene="dnaE"
+                     /locus_tag="ACIAD2089"
+                     /note="Bacterial DNA polymerase III alpha subunit; Region:
+                     DNA_pol3_alpha; pfam07733"
+                     /db_xref="CDD:149024"
+     gene            complement(20556..21551)
+                     /gene="holB"
+                     /locus_tag="ACIAD2361"
+                     /db_xref="GeneID:2878933"
+     CDS             complement(20556..21551)
+                     /gene="holB"
+                     /locus_tag="ACIAD2361"
+                     /EC_number="2.7.7.7"
+                     /function="DNA replication (MultiFun:2.1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type e : enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase III, delta prime subunit"
+                     /protein_id="YP_046962.1"
+                     /db_xref="GI:50085452"
+                     /db_xref="GeneID:2878933"
+                     /translation="MVSLNKQENLVYPWQENVWTTLTRRFPQVGHGLLFYGKKGCGKD
+                     AFTQHFLAWVLCTHKKPEGACGECVSCQWLKSDTHPNYVHITTDEDNKKQNAKIKIEK
+                     IRELLPFVQQTVDGWRVIVIEPAEALNIASSNALLKTLEEPGERILIVLLADHYLKLP
+                     ATIRSRLQHFSLDRVSTVQAHDYLQQHLDNLPSEQAQLLLNLTNNMPLEAIEVAKSDW
+                     FAKREAFLMDWIKLVHQKNMPLFYSSKWQKELVFSEWLTLFEYLLCDLICVKLDQVCK
+                     NTDLDLKDLASNYTLEVLFDFYADLQHAKQLIEQNVQSNLVMDQLFIKLMNVDGG"
+     misc_feature    complement(2319883..2320458)
+                     /gene="holB"
+                     /locus_tag="ACIAD2361"
+                     /note="DNA polymerase III, delta' subunit; Region: holB;
+                     TIGR00678"
+                     /db_xref="CDD:161993"
+     misc_feature    complement(<2320009..>2320158)
+                     /gene="holB"
+                     /locus_tag="ACIAD2361"
+                     /note="P-loop containing Nucleoside Triphosphate
+                     Hydrolases; Region: P-loop NTPase; cl09099"
+                     /db_xref="CDD:158411"
+     gene            21652..23097
+                     /gene="dnaB"
+                     /locus_tag="ACIAD2433"
+                     /db_xref="GeneID:2881053"
+     CDS             21652..23097
+                     /gene="dnaB"
+                     /locus_tag="ACIAD2433"
+                     /function="DNA replication (MultiFun:2.1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type e : enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replicative DNA helicase;chromosome replication,
+                     chain elongation"
+                     /protein_id="YP_047028.1"
+                     /db_xref="GI:50085518"
+                     /db_xref="GeneID:2881053"
+                     /translation="MSQANANFLDNSKVSANKTAESGQLKEFRTPPHNLAIEQAVLAA
+                     LMTVAESFEQVNDLLKENDFYATRHKYIFRAIEKLAQENSPYDAVLVNDWLLKQNLLD
+                     AIGGEEYLMQLMADSPSSFYNLETYASKIKEFSTLRSMIKVSSDILQNAYDTKGRPVS
+                     EILDLAETSIFSLAEQHNNNKKDAGPKSISSVTADVISKLDELSKLDGNITGLTTGFL
+                     ELDNKTYGMQSGDMIIVAARPSMGKTTFAMNLVESVLFNCNLPALVFSMEMPADSIAM
+                     RLISSYGKVHQGHLRSGKLDGDEWSKVTGTILQLQEKHLYIDDSSALPPTELRARARR
+                     IAKQHGGKLGCIMIDYLQLMKVPGMGDNRVGEIGEISRSLKALAKEMDCPVIALSQLN
+                     RSLENRPNKRPVMSDLRESGAIEQDADLIMFIYRDEVYNKESKEAGTAEIIIGKQRNG
+                     PIGTVRLAFEGQYTRFSNLSPEYYSQYDDEE"
+     misc_feature    2397876..2399201
+                     /gene="dnaB"
+                     /locus_tag="ACIAD2433"
+                     /note="replicative DNA helicase; Region: DnaB; TIGR00665"
+                     /db_xref="CDD:161985"
+     misc_feature    2397876..2398187
+                     /gene="dnaB"
+                     /locus_tag="ACIAD2433"
+                     /note="DnaB-like helicase N terminal domain; Region: DnaB;
+                     pfam00772"
+                     /db_xref="CDD:144390"
+     misc_feature    2398443..2399171
+                     /gene="dnaB"
+                     /locus_tag="ACIAD2433"
+                     /note="DnaB helicase C terminal domain. The hexameric
+                     helicase DnaB unwinds the DNA duplex at the  chromosome
+                     replication fork. Although the mechanism by which DnaB
+                     both couples ATP hydrolysis to translocation along DNA and
+                     denatures the duplex is unknown, a...; Region: DnaB_C;
+                     cd00984"
+                     /db_xref="CDD:29985"
+     misc_feature    2398500..2398520
+                     /gene="dnaB"
+                     /locus_tag="ACIAD2433"
+                     /note="Walker A motif; other site"
+                     /db_xref="CDD:29985"
+     misc_feature    order(2398515..2398520,2398833..2398835,2398956..2398958,
+                     2399064..2399066,2399130..2399132,2399163..2399165)
+                     /gene="dnaB"
+                     /locus_tag="ACIAD2433"
+                     /note="ATP binding site; other site"
+                     /db_xref="CDD:29985"
+     misc_feature    2398824..2398835
+                     /gene="dnaB"
+                     /locus_tag="ACIAD2433"
+                     /note="Walker B motif; other site"
+                     /db_xref="CDD:29985"
+     misc_feature    order(2398848..2398853,2398872..2398880,2398953..2398979,
+                     2399061..2399066,2399100..2399105)
+                     /gene="dnaB"
+                     /locus_tag="ACIAD2433"
+                     /note="DNA binding loops"
+                     /db_xref="CDD:29985"
+     gene            23198..23488
+                     /gene="fis"
+                     /locus_tag="ACIAD2446"
+                     /db_xref="GeneID:2879642"
+     CDS             23198..23488
+                     /gene="fis"
+                     /locus_tag="ACIAD2446"
+                     /function="DNA recombination (MultiFun:2.1.3)"
+                     /function="nucleoproteins, basic proteins
+                     (MultiFun:2.3.7)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type f : factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA-binding protein for site-specific
+                     recombination, transcription of rRNA and tRNA operons and
+                     DNA replication"
+                     /protein_id="YP_047040.1"
+                     /db_xref="GI:50085530"
+                     /db_xref="GeneID:2879642"
+                     /translation="MIFGLTRMNSKSPIFTAQSDVALRIHVDRAVRHYFAQLQGEQPS
+                     QVYDMVLAEMEKPLLSVVLEYTRGNQTRAAEILGLNRGTLRKKLKAHGLMSE"
+     misc_feature    2410395..2410607
+                     /gene="fis"
+                     /locus_tag="ACIAD2446"
+                     /note="Bacterial regulatory protein, Fis family; Region:
+                     HTH_8; cl01091"
+                     /db_xref="CDD:174521"
+     gene            complement(23589..26318)
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /db_xref="GeneID:2879252"
+     CDS             complement(23589..26318)
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /EC_number="5.99.1.3"
+                     /function="DNA bending, supercoiling, inversion
+                     (MultiFun:3.1.1.1)"
+                     /function="DNA replication (MultiFun:2.1.1)"
+                     /function="transcription related (MultiFun:2.2.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type e : enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA gyrase, subunit A, type II topoisomerase"
+                     /protein_id="YP_047231.1"
+                     /db_xref="GI:50085721"
+                     /db_xref="GeneID:2879252"
+                     /translation="MSVSEIRPIAIEDELKHSYLDYAMSVIVSRALPDVRDGLKPVHR
+                     RVLYAMHELGNDYNKAYKKSARVVGDVIGKYHPHGDTAVYDTIVRMAQDFSLRYLLVD
+                     GQGNFGSVDGDSAAAMRYTEVRMTKLTHELLADLEKDTVDWVDNYDGSERIPDVLPTR
+                     IPNLLINGAAGIAVGMATNMAPHHLNEVIHACLAYADNPNISIEGLMEHITGPDFPTG
+                     GIIYGKSGIVDAYRTGKGRLHIRGKYHFEEDEKTGRTTIVFTEIPYQVNKARVIERIA
+                     ELVKEKKLEGISELRDESDKDGMRIAIDLKRGENAEVIVNNLFLNTQLENSFSINMVC
+                     LDNGQPKLMNLKDIIAAFIRHRQEVVTRRTMFELRKARERGHILEGLTVALANIDDII
+                     ETIKTSANPAEARERLQAGEWAGGGVIALLEKAGSVSVRPDEIEGEDPARPFGLSEQV
+                     YRLSPTQVAAILELRLHRLTGLEQDKLHAEYTEILGQIAELTAILNDFNLLMGVIREE
+                     LSLILQQYGDERRTQIVESRIDFCREDLIPEEQVVLTVSQTGYAKTQPLSDYQAQRRG
+                     GRGKSATSMKDDDIIQHLIVASNHATVLCFTNVGKVYRLKVFEVPQASRGAKGRPMVN
+                     LLPLDANESITAILPLTEFLENHYVFMATASGTVKRVELEQFANIRSNGLRAIELNEE
+                     DTLIGVAITDGQQQIMLFSNEGKAIRFAETDVRAMGRTAKGVRGMRVTLAAAVDSEDT
+                     ELDHDELDDSEESTDSSVVSRIVSLVVVPETGEVLCASANGYGKRTPVNDFPTKKRGG
+                     KGVIAIKTSERNGELVGAVSIDGTKELMLISDGGTLVRTRAAEVAMTGRNAQGVRLIR
+                     LSDAETLVGVVSIEAVEDDEFIEVVEEIATESEITEVDQPEIDSESSDSAATE"
+     misc_feature    complement(2606078..2608675)
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /note="DNA gyrase subunit A; Validated; Region: PRK05560"
+                     /db_xref="CDD:168095"
+     misc_feature    complement(2607149..2608594)
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /note="DNA Topoisomerase, subtype IIA; domain A';
+                     bacterial DNA topoisomerase IV (C subunit, ParC),
+                     bacterial DNA gyrases (A subunit, GyrA),mammalian DNA
+                     toposiomerases II. DNA topoisomerases are essential
+                     enzymes that regulate the conformational changes in...;
+                     Region: TOP4c; cd00187"
+                     /db_xref="CDD:29149"
+     misc_feature    complement(order(2608205..2608207,2608214..2608285,
+                     2608289..2608345,2608349..2608498,2608511..2608594))
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /note="CAP-like domain; other site"
+                     /db_xref="CDD:29149"
+     misc_feature    complement(2608316..2608318)
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /note="active site"
+                     /db_xref="CDD:29149"
+     misc_feature    complement(order(2607251..2607301,2607458..2607463,
+                     2607494..2607505,2607512..2607520))
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /note="primary dimer interface; other site"
+                     /db_xref="CDD:29149"
+     misc_feature    complement(2606909..2607058)
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /note="DNA gyrase C-terminal domain, beta-propeller;
+                     Region: DNA_gyraseA_C; pfam03989"
+                     /db_xref="CDD:146561"
+     misc_feature    complement(2606750..2606908)
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /note="DNA gyrase C-terminal domain, beta-propeller;
+                     Region: DNA_gyraseA_C; pfam03989"
+                     /db_xref="CDD:146561"
+     misc_feature    complement(2606597..2606740)
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /note="DNA gyrase C-terminal domain, beta-propeller;
+                     Region: DNA_gyraseA_C; pfam03989"
+                     /db_xref="CDD:146561"
+     misc_feature    complement(<2606486..2606596)
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /note="DNA gyrase C-terminal domain, beta-propeller;
+                     Region: DNA_gyraseA_C; pfam03989"
+                     /db_xref="CDD:146561"
+     misc_feature    complement(2606213..2606359)
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /note="DNA gyrase C-terminal domain, beta-propeller;
+                     Region: DNA_gyraseA_C; pfam03989"
+                     /db_xref="CDD:146561"
+     misc_feature    complement(2606072..2606212)
+                     /gene="gyrA"
+                     /locus_tag="ACIAD2652"
+                     /note="DNA gyrase C-terminal domain, beta-propeller;
+                     Region: DNA_gyraseA_C; pfam03989"
+                     /db_xref="CDD:146561"
+     gene            26419..28308
+                     /gene="dnaG"
+                     /locus_tag="ACIAD2899"
+                     /db_xref="GeneID:2881055"
+     CDS             26419..28308
+                     /gene="dnaG"
+                     /locus_tag="ACIAD2899"
+                     /EC_number="2.7.7.-"
+                     /function="DNA replication (MultiFun:2.1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type e : enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA primase"
+                     /protein_id="YP_047443.1"
+                     /db_xref="GI:50085933"
+                     /db_xref="GeneID:2881055"
+                     /translation="MAIPQHTIDQILDRTDLVELIGQRVKLKKTGRTYSGCCPFHQEK
+                     SPSFHVYRDKGYYHCFGCQANGNAIRFLMDIDGRNFIDVMQELSSKSGVELPKDNFEQ
+                     KKLSYKRNTQKPEPKPVVNTEKSAPSHHAAISESSEQIDGLQAPSYFDDPFAQFDQSY
+                     MGFEDAPQEGNLYDLLENVAQFYEKQLPNSNKAQQYFKQRGLSAETIQFWRLGYAPED
+                     WQHLEKAFPYDIEGLKQVGLIRSSDSGRDFDLLRERVIFPIRDHKGRVVGFGGRALND
+                     EIKPKYINSPDSEIFHKNQLLYGLYEGRKLKAKDWLMVEGYMDVIALQQYGVYGAVAT
+                     LGTASNADHLNTLFKQNSRITIAFDGDAAGQKAARRTLEIALPSLNDGRELKFFVLPK
+                     EHDPDSLIRREGLEHFQRLLEQAPLLSDFIFAHLTQQHDISTPEGKSQVMGELRELTE
+                     LLPKQGSFRYLLTQSFREKLGLGRKWTPQISHDASLSFNIQTKDEDFAVALLMQHPYL
+                     YIHFEALRAFIDPQQLLAQILAIIDRVFDELPDDQELATYYVLGACNQFSHEIADIIE
+                     RTDIQTLMNAPETADKHAKEYALGLKEKYLRQKLKAPISLIESRNLRQQLNELSKQIN
+                     LRLLS"
+     misc_feature    2837366..2838769
+                     /gene="dnaG"
+                     /locus_tag="ACIAD2899"
+                     /note="DNA primase, catalytic core; Region: dnaG;
+                     TIGR01391"
+                     /db_xref="CDD:162334"
+     misc_feature    2837366..2837656
+                     /gene="dnaG"
+                     /locus_tag="ACIAD2899"
+                     /note="CHC2 zinc finger; Region: zf-CHC2; cl02597"
+                     /db_xref="CDD:141551"
+     misc_feature    2837903..2838271
+                     /gene="dnaG"
+                     /locus_tag="ACIAD2899"
+                     /note="DNA primase catalytic core, N-terminal domain;
+                     Region: Toprim_N; pfam08275"
+                     /db_xref="CDD:149368"
+     misc_feature    2838284..2838529
+                     /gene="dnaG"
+                     /locus_tag="ACIAD2899"
+                     /note="TOPRIM_DnaG_primases: The topoisomerase-primase
+                     (TORPIM) nucleotidyl transferase/hydrolase domain found in
+                     the active site regions of proteins similar to Escherichia
+                     coli DnaG. Primases synthesize RNA primers for the
+                     initiation of DNA replication. DnaG...; Region:
+                     TOPRIM_DnaG_primases; cd03364"
+                     /db_xref="CDD:173784"
+     misc_feature    order(2838302..2838307,2838314..2838316,2838434..2838436,
+                     2838440..2838442,2838446..2838448)
+                     /gene="dnaG"
+                     /locus_tag="ACIAD2899"
+                     /note="active site"
+                     /db_xref="CDD:173784"
+     misc_feature    order(2838302..2838304,2838434..2838436)
+                     /gene="dnaG"
+                     /locus_tag="ACIAD2899"
+                     /note="metal-binding site"
+                     /db_xref="CDD:173784"
+     misc_feature    order(2838308..2838313,2838329..2838334,2838362..2838364)
+                     /gene="dnaG"
+                     /locus_tag="ACIAD2899"
+                     /note="interdomain interaction site; other site"
+                     /db_xref="CDD:173784"
+     misc_feature    2838611..2838775
+                     /gene="dnaG"
+                     /locus_tag="ACIAD2899"
+                     /note="DnaB-helicase binding domain of primase; Region:
+                     DnaB_bind; pfam10410"
+                     /db_xref="CDD:150991"
+     gene            complement(28409..29788)
+                     /gene="mesJ"
+                     /locus_tag="ACIAD3034"
+                     /db_xref="GeneID:2880583"
+     CDS             complement(28409..29788)
+                     /gene="mesJ"
+                     /locus_tag="ACIAD3034"
+                     /function="cell division (MultiFun:5.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type ph : phenotype"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cell cycle protein"
+                     /protein_id="YP_047557.1"
+                     /db_xref="GI:50086047"
+                     /db_xref="GeneID:2880583"
+                     /translation="MRSALPTFDEIWQRKFRHRLLIQAQQFPADTVFLIGCSGGMDSM
+                     LLLHLMSELFPHKVRAIYIDHQLQSSSRAWGVFVQNFAQQSHIPFTIQPVIVDTGNLE
+                     NQAREARYAAFESHLKSNEVLVLAHHQQDQTETVLLRLLSGSGVKGLGAMKEIEQKKN
+                     ICCWRPMLSVSRQQIEHWVEHLKIPYIQDLTNFDTTYDRAWCRETVWPVLQKRFPKMQ
+                     EAISRTSILMQDADEILHEVLQQDLNQCGDLNHLDLSRLQQLSLARQRQLLSFWMKGK
+                     AIYRPAFEMVERVQQEVICAKADAKAALHWNHHYYVRYQNILYRVEKNKYLQKDLVSN
+                     VVSTIELQMDASLQLASGVFQIQPMQMGLSPQLFEQPLQLLPRQGGEKIHLYGRVGHW
+                     PLKKAIQEAQILPWLRHTIQILALDNVMLGVFTPKGFWLAQSSYCEAGGWQPNLISDV
+                     NYLRVEQNS"
+     misc_feature    complement(2963455..2964657)
+                     /gene="mesJ"
+                     /locus_tag="ACIAD3034"
+                     /note="tRNA(Ile)-lysidine synthetase; Provisional; Region:
+                     tilS; PRK10660"
+                     /db_xref="CDD:170609"
+     misc_feature    complement(2964103..2964630)
+                     /gene="mesJ"
+                     /locus_tag="ACIAD3034"
+                     /note="N-terminal domain of predicted ATPase of the
+                     PP-loop faimly implicated in cell cycle control [Cell
+                     division and chromosome partitioning]. This is a subfamily
+                     of Adenine nucleotide alpha hydrolases
+                     superfamily.Adeninosine nucleotide alpha hydrolases...;
+                     Region: PP-ATPase; cd01992"
+                     /db_xref="CDD:30179"
+     misc_feature    complement(order(2964535..2964537,2964541..2964543,
+                     2964598..2964609,2964613..2964621))
+                     /gene="mesJ"
+                     /locus_tag="ACIAD3034"
+                     /note="Ligand Binding Site; other site"
+                     /db_xref="CDD:30179"
+     misc_feature    complement(2963770..>2963916)
+                     /gene="mesJ"
+                     /locus_tag="ACIAD3034"
+                     /note="TilS substrate binding domain; Region: TilS;
+                     pfam09179"
+                     /db_xref="CDD:150012"
+     misc_feature    complement(2963398..2963598)
+                     /gene="mesJ"
+                     /locus_tag="ACIAD3034"
+                     /note="B3/4 domain; Region: B3_4; cl11458"
+                     /db_xref="CDD:164228"
+     gene            complement(29889..30221)
+                     /gene="ftsL"
+                     /locus_tag="ACIAD3367"
+                     /db_xref="GeneID:2878831"
+     CDS             complement(29889..30221)
+                     /gene="ftsL"
+                     /locus_tag="ACIAD3367"
+                     /function="cell division (MultiFun:5.1)"
+                     /function="peptidoglycan (murein) (MultiFun:6.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type s : structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cell division protein (in growth at septum)"
+                     /protein_id="YP_047855.1"
+                     /db_xref="GI:50086345"
+                     /db_xref="GeneID:2878831"
+                     /translation="MDKNEKLGISEPSPVKRVVVYTVMVLLVFCSAIMVVFQVFEYRH
+                     DYRELSTYMREKDDLNAEWGRLLIEQQTFGATAQIGSRAVTQLRMFSPPAAQTAVISL
+                     PMTPEQKH"
+     misc_feature    complement(3277023..>3277244)
+                     /gene="ftsL"
+                     /locus_tag="ACIAD3367"
+                     /note="Septum formation initiator; Region: DivIC; cl11433"
+                     /db_xref="CDD:175253"
+     gene            complement(30322..30900)
+                     /gene="ssb"
+                     /locus_tag="ACIAD3449"
+                     /db_xref="GeneID:2880844"
+     CDS             complement(30322..30900)
+                     /gene="ssb"
+                     /locus_tag="ACIAD3449"
+                     /function="DNA (MultiFun:1.2.2)"
+                     /function="DNA recombination (MultiFun:2.1.3)"
+                     /function="DNA repair (MultiFun:2.1.4)"
+                     /function="SOS response (MultiFun:5.8)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type e : enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ssDNA-binding protein controls activity of
+                     RecBCD nuclease"
+                     /protein_id="YP_047923.1"
+                     /db_xref="GI:50086413"
+                     /db_xref="GeneID:2880844"
+                     /translation="MRGVNKVILVGTLGRDPETKTFPNGGSLTQFSIATSEAWTDKST
+                     GERKEQTEWHRIVLHNRLGEIAQQYLRKGSKVYIEGSLRTRQWTDQNGQERYTTEIRG
+                     DQMQMLDTRSQGDQPMSGGNDFNQPRFNNNAPQQNTGYNQGGGYNNSGNNNFNQGSGY
+                     GNGGSNNSNQGGYVPKAPQQPAPADLDDDLPF"
+     misc_feature    complement(3371547..3371852)
+                     /gene="ssb"
+                     /locus_tag="ACIAD3449"
+                     /note="SSB_OBF: A subfamily of OB folds similar to the OB
+                     fold of ssDNA-binding protein (SSB). SSBs bind with high
+                     affinity to ssDNA. They bind to and protect ssDNA
+                     intermediates during DNA metabolic pathways. All bacterial
+                     and eukaryotic SSBs studied to date...; Region: SSB_OBF;
+                     cd04496"
+                     /db_xref="CDD:72968"
+     misc_feature    complement(order(3371577..3371579,3371586..3371588,
+                     3371619..3371621,3371646..3371648,3371709..3371711,
+                     3371715..3371717,3371760..3371768,3371841..3371852))
+                     /gene="ssb"
+                     /locus_tag="ACIAD3449"
+                     /note="dimer interface; other site"
+                     /db_xref="CDD:72968"
+     misc_feature    complement(order(3371568..3371570,3371574..3371576,
+                     3371613..3371618,3371622..3371624,3371628..3371630,
+                     3371652..3371657,3371694..3371696,3371700..3371702,
+                     3371706..3371708,3371712..3371714,3371718..3371723,
+                     3371757..3371762,3371781..3371783,3371811..3371813,
+                     3371829..3371837))
+                     /gene="ssb"
+                     /locus_tag="ACIAD3449"
+                     /note="ssDNA binding site; other site"
+                     /db_xref="CDD:72968"
+     misc_feature    complement(order(3371553..3371555,3371634..3371636,
+                     3371640..3371642,3371646..3371648))
+                     /gene="ssb"
+                     /locus_tag="ACIAD3449"
+                     /note="tetramer (dimer of dimers) interface; other site"
+                     /db_xref="CDD:72968"
+     gene            complement(31001..32170)
+                     /gene="ftsZ"
+                     /locus_tag="ACIAD3511"
+                     /db_xref="GeneID:2878835"
+     CDS             complement(31001..32170)
+                     /gene="ftsZ"
+                     /locus_tag="ACIAD3511"
+                     /function="cell division (MultiFun:5.1)"
+                     /function="cell structure (MultiFun:6)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="GTPase; similar structure to tubulin; forms
+                     ring-shaped polymers at the site of cell division; other
+                     proteins such as FtsA, ZipA, and ZapA, interact with and
+                     regulate FtsZ function"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cell division protein FtsZ"
+                     /protein_id="YP_047979.1"
+                     /db_xref="GI:50086469"
+                     /db_xref="GeneID:2878835"
+                     /translation="MASFEFIEDELSDSNGQARFTVFGVGGGGGNAVQHMVQSDIKGV
+                     KFVCANTDKQALDSMNAPFKIQLGEQSTRGLGAGANPEVGQIAGEESREMIRQHLEGT
+                     DMVFVTAGMGGGTGTGAAPVVAEIAQEMGILTVGVVTTPFNFEGRRRQRAAEKGIEAL
+                     EAHVDSLIIIPNQRLLSVYGDISMRDAYKKADDVLLNAVRSIFDLVVNRGHINLDFAD
+                     LKTAMSTRGYAMMGVGLGRGEDRARQAAEQAIRSPLLDNVNIINAKGVLINITGGDDI
+                     TLRETEIITDVVNQIVDLDEGEIFYGTVFDPEARDELRVTVIATGLTRNASEAEPRKR
+                     HVPHHVHVPTAHAVDEDDVPAISKRQGTEASAAPSSSPRSSPMSIQDYLKNQQRK"
+     misc_feature    complement(3438970..3440127)
+                     /gene="ftsZ"
+                     /locus_tag="ACIAD3511"
+                     /note="cell division protein FtsZ; Validated; Region:
+                     PRK09330"
+                     /db_xref="CDD:169798"
+     misc_feature    complement(3439171..3440082)
+                     /gene="ftsZ"
+                     /locus_tag="ACIAD3511"
+                     /note="FtsZ is a GTPase that is similar to the eukaryotic
+                     tubulins and is essential for cell division in
+                     prokaryotes.  FtsZ is capable of polymerizing in a
+                     GTP-driven process into structures similar to those formed
+                     by tubulin. FtsZ forms a ring-shaped septum...; Region:
+                     FtsZ_type1; cd02201"
+                     /db_xref="CDD:100021"
+     misc_feature    complement(order(3439549..3439551,3439558..3439563,
+                     3439570..3439572,3439618..3439620,3439687..3439689,
+                     3439708..3439713,3439786..3439806,3439969..3439971,
+                     3440041..3440043,3440050..3440058))
+                     /gene="ftsZ"
+                     /locus_tag="ACIAD3511"
+                     /note="nucleotide binding site; other site"
+                     /db_xref="CDD:100021"
+     misc_feature    complement(order(3439291..3439293,3439300..3439311,
+                     3439489..3439491,3439495..3439500))
+                     /gene="ftsZ"
+                     /locus_tag="ACIAD3511"
+                     /note="SulA interaction site; other site"
+                     /db_xref="CDD:100021"
+     gene            complement(32271..33533)
+                     /gene="ftsA"
+                     /locus_tag="ACIAD3512"
+                     /db_xref="GeneID:2878827"
+     CDS             complement(32271..33533)
+                     /gene="ftsA"
+                     /locus_tag="ACIAD3512"
+                     /function="cell division (MultiFun:5.1)"
+                     /function="cell structure (MultiFun:6)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Evidence 2a : Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type s : structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cell division protein"
+                     /protein_id="YP_047980.1"
+                     /db_xref="GI:50086470"
+                     /db_xref="GeneID:2878827"
+                     /translation="MSEAVPSVVAIDIGTHKVSVLIGKVHAPDNIQVIGMATARNRGM
+                     NKGKIVSLDKVISAIKNAVAEAENMAECRVHTAWVSIPTTELQSFYASGRIPIAKADH
+                     TITTNEVVRALELAKASHVTPDYYLASAVPLGFELDDSSEWVQNPINMSAHSMTGHYQ
+                     LMMMPISIMQNLDRAMKGASIGVEKMVVSCLATAEASLLKDEKEYGVCLLDIGAGTTN
+                     IAVYLDGRLALARTLQRGGENVTRDIAAVLQTTTEEAERIKILHGCVDLSAIKPDQMI
+                     QVQAIDGPQTISRIELAEIIIARYEEILGQVRDELERSGAIHGLYHGVVLTGDACQIE
+                     GMISLARRILGVSAHLGNPPLQVYADDQHQASIRRSMYATAAGLLMFSQSELQDTVED
+                     SEEASQRSLWNRVANGWNTLNTKLKAIF"
+     misc_feature    complement(3440301..3441539)
+                     /gene="ftsA"
+                     /locus_tag="ACIAD3512"
+                     /note="Cell division ATPase FtsA [Cell division and
+                     chromosome partitioning]; Region: ftsA; COG0849"
+                     /db_xref="CDD:31190"
+     misc_feature    complement(3440973..3441539)
+                     /gene="ftsA"
+                     /locus_tag="ACIAD3512"
+                     /note="Cell division protein FtsA; Region: FtsA; cl11496"
+                     /db_xref="CDD:159497"
+     misc_feature    complement(3440520..3440942)
+                     /gene="ftsA"
+                     /locus_tag="ACIAD3512"
+                     /note="Cell division protein FtsA; Region: FtsA; cl11496"
+                     /db_xref="CDD:159497"
+     gene            complement(33634..35514)
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /db_xref="GeneID:2879428"
+     CDS             complement(33634..35514)
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /EC_number="5.99.1.-"
+                     /function="DNA (MultiFun:1.2.2)"
+                     /function="DNA related (MultiFun:2.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="decatenates newly replicated chromosomal DNA and
+                     relaxes positive and negative DNA supercoiling"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA topoisomerase IV subunit B"
+                     /protein_id="YP_048009.1"
+                     /db_xref="GI:50086499"
+                     /db_xref="GeneID:2879428"
+                     /translation="MSQYTAQSLEVLSGLDPVRRRPGMYTDTTRPNHLAQEVIDNAVD
+                     EALAGHANKIRVTVYQDGSLAVEDNGRGMPVDIHPEYGQSGIEIILTKLHAGGKFSTD
+                     NYQFSGGLHGVGISVVNALSSRVEVEVQRQGNLYKMAFEHGEPVAPLEVLAGKAPKRA
+                     SGTTVHFWPEAKYFDSPKFALKALKHNLKAKAVLAAGLQIIYVDEINNETIEWQFENG
+                     LVDYLMDELEDRDILPNPAFLSSGQVERASCEFAICWNVEGGEQIQESYVNLIPTAQG
+                     GTHVNGLRSGVTEALREFCELRNLLPRNLKLSAEDVWDGVNFILSLKFQEPQFSGQTK
+                     ERLSSREASGVVLNIAKDAFALWLNQNSEIAMQLAEMAISKAGRRLKAAKKVERKKIV
+                     SGPALPGKLADCVGQTREESELFIVEGDSAGGSAKQARDKNFQAIMPIRGKILNTWEV
+                     SSDEVLASQEVHDIAIAIGVDPGSDDLSELRYGKICILADADSDGLHIATLLCALFVK
+                     HFPALVEEGHLYVAMPPLFRIDAGKDVFYALDDEELDAILSKLKTKNPQITRFKGLGE
+                     MNASQLRETTMDPDTRRLVQLDLDDAHMTAGLLDKLLAKKRSADRKHWLEQKGNLADI
+                     SV"
+     misc_feature    complement(3468946..3470823)
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="DNA topoisomerase IV subunit B; Reviewed; Region:
+                     PRK05559"
+                     /db_xref="CDD:168094"
+     misc_feature    complement(3470425..3470727)
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="Histidine kinase-like ATPases; This family includes
+                     several ATP-binding proteins for example: histidine
+                     kinase, DNA gyrase B, topoisomerases, heat shock protein
+                     HSP90, phytochrome-like ATPases and DNA mismatch repair
+                     proteins; Region: HATPase_c; cd00075"
+                     /db_xref="CDD:28956"
+     misc_feature    complement(order(3470437..3470439,3470443..3470445,
+                     3470479..3470490,3470605..3470610,3470614..3470616,
+                     3470620..3470622,3470626..3470628,3470692..3470694,
+                     3470701..3470703,3470713..3470715))
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="ATP binding site; other site"
+                     /db_xref="CDD:28956"
+     misc_feature    complement(3470701..3470703)
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="Mg2+ binding site; other site"
+                     /db_xref="CDD:28956"
+     misc_feature    complement(order(3470482..3470484,3470488..3470490,
+                     3470608..3470610,3470614..3470616))
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="G-X-G motif; other site"
+                     /db_xref="CDD:28956"
+     misc_feature    complement(3469663..3470175)
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="TopoIIA_Trans_DNA_gyrase: Transducer domain, having
+                     a ribosomal S5 domain 2-like fold, of the type found in
+                     proteins of the type IIA family of DNA topoisomerases
+                     similar to the B subunits of E. coli DNA gyrase and E.
+                     coli Topoisomerase IV which are...; Region:
+                     TopoII_Trans_DNA_gyrase; cd00822"
+                     /db_xref="CDD:48467"
+     misc_feature    complement(3470017..3470019)
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="anchoring element; other site"
+                     /db_xref="CDD:48467"
+     misc_feature    complement(order(3469666..3469668,3469678..3469680,
+                     3469690..3469695,3469828..3469830,3469834..3469839,
+                     3469846..3469848))
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="dimer interface; other site"
+                     /db_xref="CDD:48467"
+     misc_feature    complement(order(3469822..3469824,3469828..3469830))
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="ATP binding site; other site"
+                     /db_xref="CDD:48467"
+     misc_feature    complement(3469252..3469590)
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="Topoisomerase-primase domain. This is a nucleotidyl
+                     transferase/hydrolase domain found in type IA, type IIA
+                     and type IIB topoisomerases, bacterial DnaG-type primases,
+                     small primase-like proteins from bacteria and archaea, OLD
+                     family nucleases from...; Region: TOPRIM; cl00718"
+                     /db_xref="CDD:174361"
+     misc_feature    complement(order(3469342..3469344,3469348..3469350,
+                     3469354..3469356,3469558..3469560,3469567..3469572))
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="active site"
+                     /db_xref="CDD:173773"
+     misc_feature    complement(order(3469354..3469356,3469570..3469572))
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="metal-binding site"
+                     /db_xref="CDD:173773"
+     misc_feature    complement(3468976..3469170)
+                     /gene="parE"
+                     /locus_tag="ACIAD3544"
+                     /note="DNA gyrase B subunit, carboxyl terminus; Region:
+                     DNA_gyraseB_C; pfam00986"
+                     /db_xref="CDD:144542"
+ORIGIN      
+        1 ttaaattaggttagaatacttcaagtttttttgagtttaagggttaaaacgtgcgactaa
+       61 aaatagccaaagaaagtttactcaatgttctctcccatgtggtgggtgcagtagagcgtc
+      121 gccatacgttgaatattctttcaaatgttaaaattcaggctaatgcgcaggctttgacca
+      181 ttactggatctgatcttgaagttgaactggtcgcaagtacgacattagcagaaggggcat
+      241 gcattgaagctggagagaccacagtacctgcacgaaaactggtcgatatctgtaaatctc
+      301 ttccttctgctgccttgattgatctacaaattaccgaagatcagcgctgtatcctgaagt
+      361 ctggaaatagccgttttgtgctgggcactttaccagcagaagactatccgctattgacca
+      421 ctgagagcagtcaaggtactcaggttcaagtgactcagcgcgagttgaagcgtttgtttg
+      481 aaaaaacatcttttgctatggcagttcaggatgtgcgtttttatttgacgggcacattac
+      541 tagaaattgatcaaaatcagttacgtgcagtcacgactgatgggcatcgtttggcactgt
+      601 gtgaagttcaggcatcatccaccgccatgcaggcagtacaagcaattgtgccacgtaaag
+      661 ctgtgggtgaattacagcgtttgttaagtatcgaagatgatcagctaagtttgctgattg
+      721 gtcgtgaactattgaatgtgaccattaacattgccaatcgtgataaggaacaacatccaa
+      781 ttaccgtgcgctttaccaccaaattaattgatggaaagtttcctgattatcgccgtgtca
+      841 ttccacgtggtggcgataaacacgtacaaattgcgcatgacgtgttcaagcagtcactac
+      901 agcgtgtcgcgattttgagtaatgagaaattacgcggcgtattcctgaattttaatcctg
+      961 atgtgttacagcttcgtgccaataacccagagcaggatgaggcaattgaagatattgcaa
+     1021 ttcaatatcaggatgcatcgcttgaaatgtcctttaatgcgcagtatttgctagatgtct
+     1081 taagtgtactggatggtgatgatgtcagcatgagtatgactgaggccaatcagtcggttt
+     1141 tggttcaagatgcggcacatcctgatcagacctatgtggtcatgccaatgcgtgtgtgat
+     1201 gtattgactaaattatgcaaattacgcgtttaaacattgaacgtgtgcgttgatttttta
+     1261 cccatctttggatagacctatttttgctagggagaaaccatgagttcagaatcgcaatct
+     1321 gcctctccaacagaacaaacaattgaaaaggcgtatgattcctctagtatcaaggtatta
+     1381 cgtgggctggatgctgttcgtaaacgtccaggcatgtatattggtgatactgacgatggg
+     1441 actggcttgcaccatatggtgtttgaagtcgtcgataatgcgattgatgaagctttagcc
+     1501 ggacactgtgatgagattattgtcaccattcatgaagatgaatcggtgagcgtctctgat
+     1561 aatggtcgtggtatcccaactgatatccatcctgaagagggtgtttctgccgcagaagtg
+     1621 attctaaccattctgcatgctggcggtaagtttgatgataatagttataaggtttctggc
+     1681 ggtctgcatggtgtaggtgtgtcagtggtcaatgccttgtccagcaagctacagttaacc
+     1741 attcatcgtgctggtcagatccatgaacaggaatatcagcacggcgatcctcagtatccg
+     1801 ctaaaagtggtcggtgagacatctaccacgggtactactgtacgtttctggccaagtggg
+     1861 gatacttttagccagactatttttaatgttgatattctggcacgccgtttacgtgagctg
+     1921 tcttttctaaatgcaggcgttaaaatagtcctgcgtgatgaacgtgtgaactttgagcat
+     1981 atttatgcctatgaaggcggcctgtcagagtttgtaaaatacatcaatgaaggcaaaaat
+     2041 cacctcaatgacattttccattttaccgctgattctgacaatggcattgccgttgaagtg
+     2101 gcgttgcaatggaatgacagctatcaggaaaatgtacgctgctttaccaacaatattcca
+     2161 caaaaagatggtggaacacaccttgcgggcttccgtgcagctttgacacgtggtttaaat
+     2221 agttatcttgagaatgaaaatattcttaagaaagaaaaagttaacgtgagtggtgatgat
+     2281 gcacgtgaaggtttgaccgctattatttcggtcaaggtgcctgatccaaaattctcgtct
+     2341 caaaccaaagaaaaattggtttcaagtgaagtcaaacctgcggttgaacaggcgatgaac
+     2401 aaggagttttcggcttatctgctggaaaatccgcaagcagcaaaatcgattgctggaaaa
+     2461 attattgatgccgcacgtgcgcgtgatgccgcacgtaaagcacgtgaaatgacgcgtcgt
+     2521 aagagtgcactcgatattgcgggcttaccgggtaaacttgcagattgtcaggaaaaagat
+     2581 ccagcgttgtctgagttgtatctggtcgagggtgactctgcgggtggtagtgctaagcaa
+     2641 ggtcgtaaccgtaagatgcaggcgatcttgccgctgaaaggtaaaatcctgaacgtggaa
+     2701 cgtgcgcgttttgacaagatgatttccagtcaggaagtgggaacattgatcaccgcgctg
+     2761 ggctgtggtattggtcgtgaagaatataatcccgataagcttcgttaccacaaaatcatc
+     2821 attatgaccgatgcggatgtcgatggttcacacattcgaaccttactattgactttcttc
+     2881 ttccgtcaaatgccagaactggttgagcgtggtcatatttatatcgcccagccaccattg
+     2941 tacaagttgaaaaaaggtaagcaggaacagtacatcaaagataatgatgcacttgaaacc
+     3001 ttcctgatttcaaatgccattgatgatctggcattgcatatcagtgcagaagcacctgcc
+     3061 attacaggtgaagcactggctaaagtcattgatgactacaagatttcgcaaaaaagtttg
+     3121 cagcgtttgacccagcgttatcctgcaactttgcttgatggcttgctcgaagttgagcca
+     3181 tttaaagccgatcttagccatgatcgtccctatgtagagcagtgggccgagcaactgggt
+     3241 caagtgattgcaaaattacagccaagcttacgacctgaggtgagtttagaaagctttgaa
+     3301 cgtgaatcaccaacaggggaaacttcgattcattgttggccgcgtattacggtctatgtg
+     3361 cataatttaccacaccattacctattggatgctggtttgctcaactctgctgaatatgca
+     3421 cgattactcaaaaactccaagagctggtttaaattgcttgaagaaggtgcttacttgcaa
+     3481 aaaggtgaacgtcgtattcaggtgagcaatttccatcaggtttggcagcaaatcttgcag
+     3541 gactcacgtcgtggcatgatgattcagcgctataaaggtttaggtgagatgaacgccgag
+     3601 cagctttgggaaactacgatggatcctgataaccgtcatatgctgcaagtcaccattgat
+     3661 gatgcgattgaagctgatcgtatgtttagttgcctcatgggcgatgacgtcgagccacgt
+     3721 cgtgcatttattgaggaaaatgcgttgaatgcagatattgatgcttaatatctgattgat
+     3781 taaaacaccataaaaaaatcaggcacacagtgcctgatataggataaccaataagacaaa
+     3841 acatattaatttaggatgattcgttgttatgaccagccttgcgcatcatgcgactgaaaa
+     3901 ccgttccgttgccgaatttacagaacaagcgtatctcaactatgccatgtacgtgattat
+     3961 ggatcgtgcattgcctcatattagtgatggtttaaagcctgtacagcgccgtattgtata
+     4021 tgcaatgagtgagttgggcctaaaatcaacaggaaaacccaaaaagtcagcacgtactgt
+     4081 gggtgatgtactgggtaaatatcatcctcatggtgattcggcctgttatgaagccatggt
+     4141 tttgatggcacagccatttagttatcgttatcctttggtggaagggcaaggaaactgggg
+     4201 ttctcctgatgatcctaaatcttttgctgcgatgcgttataccgaagccaaactgtcggc
+     4261 gtatagcgaactgttattgagtgaattggggcagggaaccgtagactggcaagataactt
+     4321 tgatggatcgttaaaagaaccgatcaatttacctgcgcgcgtgcctaatattttattaaa
+     4381 tggcactatgggaattgcagtgggcatggccacggatattccaccccataatttacgtga
+     4441 agtggtcaaagggaccattgccctgattcgtaaccctgaaaccacagatgagaaactggc
+     4501 agaatatattccagcacccgacttgccgaccaaggcagagattattaccccaaaggatga
+     4561 gttacttaaaattcagaccactgggcgtggtagttatcgtgctagggcggtttatcacat
+     4621 tgataaaaacgagatcgtcattactgagctaccgtatcaggtatctggctcaaaagtcat
+     4681 tactcagattgcagatcagatgcaggccaaaaaactaccgctggtcagtgatgtccgtga
+     4741 tgaatcagatcatcgtaatccaacgcgtttggtcattgtattacgttcaaaccgtgtaga
+     4801 tgctgcggctgtgatgagccatttatttgcaaccaccgatcttgaaaccagttatcgggt
+     4861 caatttgaatatgattggttcagatggtcgtcctcaggtgaaatcaattcgccgaatttt
+     4921 gctggaatggattgaaatccgtaaaacgactgtgacacgtcgtttgcaatatcatttgaa
+     4981 taaaattgaaaaacgcttacatattctggctggtttgctgattgcgtatttggatattga
+     5041 taccgtgatcaagatcattcgtgaagaagatcagcccaaacctgtcctgatgcaacattt
+     5101 taatattgatgaaattcaggcagaagccattttggaacttaaattgcgccatttggcaaa
+     5161 attagaagaaatggaaattcgccgtgaacaagaagagcttgaagccagagctgcagttat
+     5221 tcgtgaacaattgggtaatccagaatcgttaaaaaatctgattatcaatgaacttaagga
+     5281 agatgctaaaaaatttggtgatgatcgacgttctccaatcgtacagcgtgaagaagccgt
+     5341 acagattcgtgaacaggatttgctaccagcagagacggtgacagttgttctatctgaggc
+     5401 aggctggattcgttctgccaaaggtgaagtcgatgcagaaaatctaaattatcgtgcagg
+     5461 tgaccagtaccaaagtcatgccattggtaagtcaaatcagcgtgtttatgtacttgatga
+     5521 aaccgggcgaagctatgcgcttagtattggcaacctaccttctgcacgtggactcggcga
+     5581 gccgttaagttcaaaactgtcgcctgccaatggtgtctcctttattcaagtgtatatcaa
+     5641 tgatgaggaatctgaactgattgcagtaagtgatgcaggttatggctttaaaacgcagac
+     5701 caagcaactagataccaatgccaaagcaggcaaagcatttctgagtgttccagagggcgc
+     5761 caaagcattgccattattgacgatacgtgatgcgacgcatctggctatgcttagttcgtc
+     5821 tggtcgtttactgattgtagatttgtcagaattaccaatattaaacaaaggtaagggtaa
+     5881 taagttgatacaacttgatgataaagatcaaattttatccatgacattgctcagcttaaa
+     5941 tgaaataattcaggtggttgcgggacagcaacatttaaaaataaaaggtgatgaccttca
+     6001 aaaatatatgggtaagcgtgcgacaaaagggcaactcttaccacgaggttatcaaaaagc
+     6061 aaatagactgttgattcagagataatgctcgcatcggttatctaaaatacgttatatatg
+     6121 aaaagcaatgtaggatggcgactgtctaatttttaatttatccattataggaatcactgt
+     6181 tgattatggcgaatgcccctcgttccaccaccaaaaaaagtacgacagcgtcttctgagc
+     6241 ctgctggtaataaacgtgcactggtgattgtggagtcgcctgcgaaagcgaaaaccatta
+     6301 ataaatatctgggttcacaatatattgttaaatcttctgtcggccatgtccgtgatttgc
+     6361 caacagggggttctgccaagtccggtgaaaaaaagccagcaacgcgcgctaaactgactg
+     6421 ccgaagaaaaagagcagaaagcacaaaatgcgttgattaatcgcatgggtgttgatcctg
+     6481 aacatgactggaaagcccattatgaagttctaccaggtaaagaacatgtcgttgcagaac
+     6541 tgaaaaaactcgcttcacaagttgacgaagtttatctggcaacggatttggaccgtgaag
+     6601 gagaagccattgcctggcatttaaaagaagtcattggcggtgatgacagtcgttatcaac
+     6661 gtgttgtatttaatgaaattaccaaaaatgccattcaggaagcatttaagcatccagcgc
+     6721 gtttagacaccaataaagtcaatgcacagcaggcacgccgttttctggatcgtgttgtcg
+     6781 gctttatgatttcgccattactttgggaaaaaattgcacggggtttatctgcggggcgtg
+     6841 ttcaatcggttgcagtgaagctggtggttgagcgtgaacgggatattcgtgcattcattc
+     6901 cagaagaatactggcagatttttgcagataccctgtctaaaaaagatcagattcgtttgg
+     6961 aagccgtcaaacaggcaggtaagacacttaaactcagaaacaaagcggacaccgatgcgg
+     7021 ttttaaatctgcttaaggatgccgagtataaggttgcacaacgcgaggataaaccgacca
+     7081 aggtgaatccaagtgcgccctatatcacctcgactttacagcaggctgccagtactcgac
+     7141 ttggtttttcagtgaaaaaaaccatgatgctggcacaaagactatatgaaggtggtttca
+     7201 tcacctacatgcgtaccgactcgaccttcttgagtgatgacgcagtcaatatggtgcgtg
+     7261 atcatattcagcaacagtttggtgacaaatatgtccctgcaaaaccaaatcgttatggca
+     7321 ataaagcaggtgcacaagaagcgcatgaagcgattcgtccttctaatgttgctctaacag
+     7381 gtgatcagcttgcaggtatggagcgtgatgcacagcgtctttacgatttgatctggcgtc
+     7441 aatttgtggcctgtcaaatgacacctgccgaatatttatcttctactttgattgttgatg
+     7501 ccaacaatgttgagttacgtgccaaaggccgtaccttggtatttgatggatttaccagag
+     7561 ttcgtggtgccaacaaatctgacgatgatgtgttattaccagcagtgaaagtgggtgaaa
+     7621 cgctcaagcttgaaaaacttgacccaagtcagcattttaccaaaccacctgcacgtttta
+     7681 ccgaagcatctttggtcaaagagctggaaaaacgtggaattggccgtccatcgacatacg
+     7741 ctgcgattatttctacgattcaagatcgtggttacgtcaaacttgaaaatcgtcgtttat
+     7801 ttgccgaaaaaatgggcgagatcgtcaccgatcgtctcgatgaaagctttaataacctga
+     7861 tgaactatgcatttactgctgatcttgaaggccagttggataaagtagcgacaggtgagc
+     7921 gtaactggaaagagttactggatagtttctatggtgattttaaaaaccgtttaaatatgg
+     7981 ctgccagtaccgaaggcatgcgtcgtaaccagcctgttgaagtaccagatgtggcatgtc
+     8041 agctctgtagccgtccaatgcagattcgtactggaaccacaggcgtatttttaggctgtt
+     8101 cggggtataacctaccaccaaaagaacgttgtaaaggaacgcttaatttaacaccagtcg
+     8161 aatcactggctgctttctctgatgatgattctgccgaaactgcagatttgatggcgaagc
+     8221 atcgctgtgcaaaatgcggtactgccatggatagttatgtgattgatggtggtcgtaaac
+     8281 ttcatgtgtgtggtaacaatccagactgcgacggttatgaagttgaagagggcgaattca
+     8341 aaattaagggttatgatgggcccaccattccatgtgataagtgtgatggtgaaatgcagt
+     8401 taaagacaggacgttttggtccttattttgcctgcaccagttgcgataatacccgtaagg
+     8461 tattgaaaagtggtcaacccgcaccgccacgtgtagatccaatcaagatggagcatttgc
+     8521 gttcggtcaagcatgatgactattttgtattgcgtgatggtgcagcaggtctttttctgg
+     8581 cagccagcaagtttccaaaaatccgtgaaacgcgagcacccaaagtggcagaattacgga
+     8641 cagttgctgaacagcttgatccaaaatatcaatacttgctacaagcacctgatgcagatc
+     8701 cagagggtaatccagcactgatcaaatttagccgtaaaaatcaggcgcaatatgtcggtt
+     8761 ctgaaacgcctgaaggcaagcagaccaaatggagtctggtatatcaggatggaaaatgga
+     8821 ccgaagcttaggtttttgattctattaaaaatgccgacacattgtgtcggcattttttat
+     8881 gaagataagtttagggcggacgtttccgcccttttatatggtgatttttttatgatgcag
+     8941 cctgctgatattgttgcgcaaatgcgtcaactgattcaactgatcgcaaagcataatcat
+     9001 gcgtattatgtgatggatcaaccatcaattacggacaacgaatatgatcagttgtttcat
+     9061 cagcttaaagcactcgaagcagagtatcctgagttaactcaagcggatacacctaccaac
+     9121 cgtgttggtggtcaggcactgagcaagtttgaaacggtgacccatgctgtgcccatgttg
+     9181 tccttgggcaatgtatttaatcaagaagacttatttgcatttgcacgccggattgaagaa
+     9241 cgtttgcccaatcagcagattcagtatgatgtcgagttaaaactggatggtctggcgatt
+     9301 tcactgtggtatgaaaatggtgtactggtgcgtggtgtaacacgaggagatggcgaaaca
+     9361 ggagaagatattacccaaaatgtcaaaactattcgaaatctacctaaacacttacaacat
+     9421 cattccgttgaaactccacgctttttagaggttcgtggcgaagtactcatgccaaaacag
+     9481 ggctttgagcgacttaatgctgctaatgaggccaaaggcgagaagacctttgccaatccg
+     9541 cgtaatgcggcagcagggagtttacgtcagcttgatcctgcgattgctgcttcacgtcca
+     9601 ttggcattttacgcttatgggattgcccagtgcgagccgcatcatggcttgggaagtatg
+     9661 catgaaagcttacaatggctgacacaacttggctttgaaattgccgaacgtcaattttta
+     9721 tgttcttcgattcaggaagtacagcagtgttatgaacagattcagcaagaacgccctgat
+     9781 cttgcggttgaaattgatggcatggtcatcaaggtagatgatttaaaacagcagcaacag
+     9841 cttggtttcttaagccgtgaaccacgttgggctacggcgtataagtttcctgccgaagtt
+     9901 gccatgaccacagtagaaaatattgattggcaggtagggcgaacagggacacttactcca
+     9961 gttgctcgtttgcaacctgtatttgtaggtggggtaaccgtttccaatgtgacattgcac
+    10021 aatattggtgaaattcatcgactagacgtgcgtgttggcgatcgggtcagtgtttatcga
+    10081 agcggtgatgtgattccaaaggttgaaaaagtctggccagaatttcgcccagagctagcc
+    10141 gaaattgtgcaattaccagaacaatgtcctgtttgttcatcgcctgtggtgatgccagaa
+    10201 ggcgaagcattggcacgttgttctgggggcttatactgtgctgcacagcgtattgaagcc
+    10261 attcgtcattttgtatcgcgtaaggccttggatattgaaggtttaggtgatcgttgggta
+    10321 gagtcattattgcatcttgatttacttaaggatgtcgccgacatttaccacttgcacgaa
+    10381 caccgtgaacaattgctcactattgagaaaatgggcgagaagtctgtacaaaatctaatg
+    10441 gatgctattgaagccagtaaaaaaaccacattggcgcgttttatttatgcacttggaata
+    10501 cggggggtaggtgaaacgacggcacgaatgctggccaatacctttcaaactctagatgcc
+    10561 ttaaagcaagcagatatagaagcactcaagaaaaccccagatgtcggtgatatcaccgca
+    10621 gaatggatttatgatttctttttggctgagcataatattgaagtgcttgatcgattgctg
+    10681 gcagcaggaattcattgggatgcaccgcttgcaccgacccgacagccccttaatggcgaa
+    10741 agctgggtggtcacgggtacattggaaaccatggggcgtgatgaagcaactcagcgcttg
+    10801 caagcgttaggggcacgagtaagtggtagtgtatcgagtaaaaccaaatgtgtcgttgcg
+    10861 ggtgaaaaagcgggtagtaaactcgataaagccgaaaaactgcaaattcgtgtgatgaat
+    10921 gaacaggagtttctggcatttttggcacaatactcagcttaacatgctgcaatcagtcca
+    10981 atctaagcgaattgcataagtgatgactttatcttgctgttagatgtctataatcatgct
+    11041 cggatcaatcagaggaatacttatgtctgcagccagtcatttaaatgacaaacaacaaga
+    11101 agccatgaaatatactcaaggaccgttgttagtgcttgcaggagcaggttcaggcaaaac
+    11161 ttccgttatcacgcaaaaaattgcatatttagtcaagcaatgtcgtattcctgcgcatcg
+    11221 tattaccgcgatgacctttaccaacaaagctgcacgtgagatgaaagaacgtgtagctaa
+    11281 gttactttcgcgtgaagatgcaaaaggtttatctgtttcaacgtttcatacctttggtct
+    11341 gaatttattaagattagagcttaaacatacacccctgaaaaataatttttcaattttgga
+    11401 ttcggatgactgcaaacgcatcctgatggacttgatgcaacgtgacaatctttcaggtgc
+    11461 agaaagcaaagaattgattgccaaagccatgaaaaagatttcagactggaaaaatgatct
+    11521 gattgtgcccgaacaagcacattcaacatgtgaaaccgttgaagacgttcagtttgcaca
+    11581 cctctatcaactctatgagcgtaatttgcgtgcctacaatgcagtcgattttgacgacct
+    11641 gattgtattacctacacggctgcttcaggaaaatgctgaagtacgtgacaagtggcaaaa
+    11701 ccgtactcgttatttattggtggatgaatatcaagacaccaatacagcacagtatatttt
+    11761 agttaagctcttggttggggtgatggggcagtttactgcggtaggcgatgatgaccagtc
+    11821 gatttacgcttggcgtggtgctaaaccagaaaacatggcgctattgaaagaagattttcc
+    11881 aaatttaaaagtcattaagcttgaacagaattatcgttcgaccagtcgaattttgaaagc
+    11941 agccaacgccgttattgaaaacaatccacatatttttgataaaaagctgtggagtgacaa
+    12001 agggcatggtgaagtgattcggattattacctgtcgtaatgatgatgatgagtctgaacg
+    12061 tgtggtcaaggatttgatgactcataagctgatgaatggaaaaaactggaaggattatgc
+    12121 agtactgtatcgcggtaactttcaggcacgagttttagaaacccagctacgtcagatgca
+    12181 gattccttataagctttcgggtggacaatcattttttgcgcgggctgaaatcaaagacgt
+    12241 tatgagttatttgcgtttgattattaacccagaagatgatagtgcttttttgcgtattat
+    12301 taatacgcctaaacgcgcgattggacctgtgacactggaaaagcttggactattttctca
+    12361 agaaaatcatttatctttattggctgctgccgctgaccagcgtttgagtatggtgattcc
+    12421 gaaaaaagctgcatctcaattacatgaatttgcagattttattaccacatttacccgtga
+    12481 attattagatgatgacgagcctgtgcctaaggtgcgtcagatgatgaatgaagcgggcta
+    12541 tattgattatatccgtgagcaggcagcaacccctgcgcaagaaaaaaccaagctcgataa
+    12601 tatcgagagtttatttagcagcatccaaaacctgttaaatcgtaccgaagatgtcgatga
+    12661 gaaaaatattgaaagtgtgattcgtaagctggttttgctcgatatgctggaacaacagca
+    12721 ggaagaagaagataccgataaggtcaatcttttaactttgcatgcagctaaaggtctaga
+    12781 gtttccatttgtttatattatggggcttgaggaagagttgttgccacacaaaaactcaat
+    12841 tgcagcagatacgattgaagaagagcgtcgcttgatgtacgtgggaattacccgtgcgcg
+    12901 tcaaggcttgactctaacgcttgccgagcaacgtaaaaatggcggacaaatgaaacaaat
+    12961 gacaccaagccgctttctggatgaattgcctcaagatgagctggaatggctaggtcgtaa
+    13021 gaaaaagctggcaggcaatgttgatccgaaagagcaggctcagcagtatttagccaattt
+    13081 aaaagcgttattaaagaaataattgataaaccaattaggaactgtaatgaaagtccaagt
+    13141 taaaattttagatatacctgaagtttatctgcttgcatcattcgcatttgaaaatctttt
+    13201 gcttatttggcaaatagacatggctcgccatttttttcctgatagcttttgacccattca
+    13261 ttatgtttttcgagttcgttggctgagggccgaatgacaggtaaatcagcttcaatccga
+    13321 gcccgttggccttttctctgattttgttcacgttgtgacagggcatccatatcaaatgaa
+    13381 acctgtccacccgtcatggctaaatacacatcagacagaatttcggcatcaagtaatgca
+    13441 ccgtgaaaagtacgatcccgtgctggtatttcgtatcgtctaaccaatgcatcaagtgag
+    13501 tttttttgccctggatgtttattttttgccagtgctaatgtatctgtcacttcacacact
+    13561 tcggatagtgtcggtaaacccgcacgtttaaactccatgtccaagaagttcatatcgaag
+    13621 cttgcgttatgggcaataatctctgcgccttttaagtattcaaataaaggctctgcaatt
+    13681 tcagcgtatttgggtttatcaagtaggaattcatcggtaattccatggacgtccaccgaa
+    13741 tcaccaacaggtttttcaggattgatataaatgtggattgaacttccagtgagtttacga
+    13801 ttgatcatttcaatcgcgcctacctcaataattcgatctccgtcctgaaaataaaagccc
+    13861 gttgtttctgtatccaaaatgagctgacgcggaccctgagcctgtattttggcaggtgtc
+    13921 atgacaatttgaggatgtaggctctctgttgacgtttcaggtatttcattttctaaccgc
+    13981 ggatctacatgtttttgtaattctgtttcttgcaaagtgtcgtctgtatccatatcgttc
+    14041 gtcatcatgtcaaagccaaatggatcgtcgagcaaccagtcattttgaggttttttttta
+    14101 tcaattgctgctaccgagcctgactttaattgagccgcagtttggcttgcgccaagattg
+    14161 gctaactcatctgccatttcgtttccagcgtgccccgcatgacctttaatccagttccac
+    14221 tcaatttgcctaccctgacaaagttgatcgaggatttgccataaatcaggattttttaca
+    14281 tctttccagtttttctttttccagccatgaatccattcggtaataccttgcttaacgtaa
+    14341 ttggagtctgtccaaataatcagggaggcatcttgagggcaaaagcgtattccttcaatt
+    14401 gcagcagtaagctccatgcgattattggtcgtttctgcttcaccaccacataatttatgt
+    14461 tcgccttgctctgtgatgacatacgcgccccaaccacctaagcctggatttcctttacag
+    14521 gcgccatcaacataaagcgtgattgtttgtgacataattaccgaacccgacacagaaaaa
+    14581 cgaagataagtcttggtattgtatataaatatttacaaaaataggcccgtaagcctattc
+    14641 taaaaataatagtatttacttcaattgaatattctgtaattgaccatcaaaagtatttaa
+    14701 taagtctttgaccacaggattttgctgaagcaaatcaatcgcacgctggaaagccttttc
+    14761 tttacgctctatttgtttgatataaggcgtaatttcatttacttttccatatttcaccgt
+    14821 aaattgtgtattcggccagcgcgatttaacctcagattcaagtgcatgttggagctgtga
+    14881 caacattccctcatattgttgaggaatattaaaagtacatatgccatcaatatttccaga
+    14941 cattaatccatattgagccaactcctgaacggcaggtgaaagttgactcgttctaaacca
+    15001 gtattcccatttttctagtgtccactcaccttctagctcttgctctgcaagcttaagaat
+    15061 atcctgaggcatgacttcaagatcatttgcggcagatgtaacttgaactttatgttcatt
+    15121 ggtatcaatagaaagatcaattaatggtgtactttcatcatcagctaatgcgtccaaaga
+    15181 actctcttctgaagagctgtcagatataggttgagtaacttgatgaggttcaggctggta
+    15241 agtgtcagcttgctcaactcgctccgcaggcaaagcgatatgttgatgattagcaatttg
+    15301 tctttcttcctcgacaggaaaaaatggcatatcttgagccgctaaaacaacagcagtctt
+    15361 gttttgttcaattccgacaatatcatctgaattggcattaaaaaccaggatattttcttg
+    15421 ctcggcttcaactactgctgaggaaacatctttattctgacgagtcttagcagtctggca
+    15481 atcatctgtagtatgatttacaacctgttctgcttcaaaagattcggcctcttgagaaat
+    15541 gacagaaataacgacacttccctccaaatcgggttcaatacgattgtttgtgtgttgaag
+    15601 ttctgaacgagaggatgagtccgtttctgaatcagcagcaggcggaagttgattgatttg
+    15661 taattctgacggttgagaagatgcatgtactgttacctcatcaattgaaagaggtcgaaa
+    15721 tgccaacaatctaagcacgcacatttcaaaaccttgctcttgagtcactgacagctgtaa
+    15781 ttcagaacgacctttacaggcgatctgataataaagctgtaaatcctgagcagaaacgat
+    15841 ctttgctaacttaagaattttttgattgatttcttcgctatattttaagctgagttcagg
+    15901 cagatattgtaatagtgccagctcatgcaaggttgaaatcaattgatcaagtaccagaga
+    15961 tacatctaaggcctgctgacgaaattgcatcaacaattgactgactctggcagtctgatt
+    16021 ttgatgaatcgctaaaatcaaatcataaataatggttcgatcaatcagacctagcatttc
+    16081 tttaacatcttgatgatggactgccccttgtccataggcaatcgcctgatctgtcaaaga
+    16141 caaagcatcacgcaaagaaccttgagccgattcagcaatctgccaaatcgcgtctttatc
+    16201 cgcttctatttgctctttagctaaaatagtcgttagatgagaagtgatttcatctacagc
+    16261 aagtgggcgcaaggtaaattgtaaacaacgagatattaccgtgatcggaagcttttgcgg
+    16321 atcggtggtggcaaacaaaaacttaacatgctcaggcggctcttcaagcgttttgagtaa
+    16381 cgcattgaatgagtgcgtcgaaagcatatgtacttcatcgatcagatagactttaaagcg
+    16441 accttgggtgggtgcataaggtacattgtctaataactcgcgtgtatcttcgactttggt
+    16501 tcgtgaagctgcatcaatctcaattaaatcaataaagcgaccttcattcacagctttaca
+    16561 ggttgcacaaacttcacacggcgttgaggtaattcctgtctcacaatttagacatttcgc
+    16621 caaaatacgggcaatggtcgttttaccaacaccgcgtgttcctgtaaacaaataggcatg
+    16681 atgcaaacgaccacgttccaatgcactggtcagtgctcttgatacatgattttgcccaac
+    16741 cagctcaataaaatttcgtggtcgatattttcttgccaatacttgatacatgaatgctcc
+    16801 ttgttacccgcataagcatactgtctttttgatgattagtgcttagacagagcatgttag
+    16861 aataatcggcggtcgtgttaaggattgatttatgcagtttgttcatcttggtattcatac
+    16921 agagttttcgattacagaatcgattgtgcgtatacctgatcttattaaagctgctgttca
+    16981 agatgatatgccagctttggcattgacagatctatccaatttacatgcggccgtgaagtt
+    17041 ttacacttcttgtctcaaaaaagggattaaaccaattttggggagtgtggtcagattaaa
+    17101 tgatcctgagcatcgtatcactttgcttgccatgaccaatgatggttggaaaggcctgac
+    17161 tgaaattgtgtcacgtgggcatattgaaggacaacaactgagcattccttgtgtgcaaaa
+    17221 agaatggattctggagcaacatcaagacattattgtattacttggccagcatagtgatgt
+    17281 tggcaaaatgctctgctcttctaacccccaaaaagcagaaccattgcttcaagcgtggca
+    17341 agagaaatttggaaatcgggtttatattgctctcacacgcacacaacgcgcgggtgaaga
+    17401 agattacatggttgaagctgtcaaactcgcagcaaaatataatattggtgtcgtcgcgca
+    17461 caacgatgtacattttatagaacgtgatgattttgatgctcacgaagcccgcgtgtgtat
+    17521 cgcagatggttatgtacttgcagatcaccgtcgcccacgcatttatagctctgaacaata
+    17581 cttcaaaaccgcatctgaaatggaagaattgttttctgacattccgagcgccatagaaaa
+    17641 tacctattatattgcacagcgttgtaacgttagtctgcaattagggacttactttttacc
+    17701 agattatccaattccagatggtttcaccatcgatacctattttgaacatttatctaaaga
+    17761 aggtttagaagaacgtctcaatcatttatatccaattgaaacacgtgatcaagactggcc
+    17821 tgaaatccgtaaaccctatgacgaacgtatcgagtatgaagtcggaattattcttaaaat
+    17881 gggatttcctggctatttcttaatcgtcatggactttattcaatgggccaaaagtaatgg
+    17941 tgtccctgttggtcctggacgtggttcgggtgcaggctcattggttgcctatagccttaa
+    18001 gattacagaccttgatccactccgttacgatctactttttgaacgtttcctgaatcctga
+    18061 acgtgtttcgatgcccgattttgatgtcgatttctgtattgcaggtcgtgaccgagtcat
+    18121 tgactatgtgtcgcgcacatatggtcgcgaagcagtatcacaaatcgcgacttttggtac
+    18181 catggcagcaaaaggtgccattcgagatgtagcacgggtattgggtaaatcttacggcct
+    18241 tgccgatcgtatctccaaaatggtgccaaccaaacctctgggtgtcgatttaaagcaagc
+    18301 gattgaaatggagccacagctcaaggatatcgtaaccaatccatccaatccagataatga
+    18361 tgatgcggccgaaatctgggaaatggcgctcaaacttgaaggaattactcgtaatacggg
+    18421 taaacatgcgggcggtgtcgtcattgcgccaggtaaaattaccgattattcggcagtact
+    18481 gtgtgatgcagatggtaccaaccgcgtagctcaatatgataaagatgacgtagaagctgc
+    18541 tggtctggttaagtttgactttttgggtctgcgaaacttaaccgtgattgaagatgctgt
+    18601 tcaaaatattaataaaagaattcagtctgaaataccattagatattgccaatgttccact
+    18661 tgacgacaaagatgcctatttagtctttgcagatgccaacactaccgcggtattccagtt
+    18721 tgaatccgtgggtatgaaaaagatgcttaaagaagcacgcccaagtaaattcgaagaaat
+    18781 tattgcctttgtatctttataccgccctggcccaatggatctgattccagactttattca
+    18841 tcgtatgcatgggggtgagtttgaatatctgcatccattgctcgaaagtgtgctcgaacc
+    18901 aacctacgggattatggtttatcaggaacaggtgatgcaggcagcgcagttctgtgcggg
+    18961 atatacgctcggtggtgcagacttacttcgccgtgcaatgggtaaaaagaaacctgaaga
+    19021 aatggtcaagcagcgccaaatcttcatcaagggtgcagcagaaaaagagatcgacgaagc
+    19081 aacagccaatcatatcttcgactatatggaaaaatttgcaggctatggctttaacaaatc
+    19141 gcatgctgctgcttatgcacttgttgcctatcatactgcatggctcaaagcacactatcc
+    19201 tgccgaatttatggccgccgtattatcgtcagaaatgcaaaatacggacagtattgtctt
+    19261 tttaattgatgactgccgtaataatgcacttgaggttttgccaccttctgtcaatatgtc
+    19321 gttgtaccacttccatgccagtgacgagcgtacaattgtttacggcttaggtgcaattaa
+    19381 aggtgtgggagaacaagccatgcaatctgtgatcgattcacggatcaaaaatggccctta
+    19441 cacagacttatttgatttttgtcatcgtatcgatcttaaaaaaatcaacaaacgaaccct
+    19501 tgaagcgcttattcgcgctggagcacttgattgtttacaaatcgaacgctctagcttaat
+    19561 ggcacagttacccgaagcggtacaagcggccgaacaagcgcggcaaaatcgtgaaacagg
+    19621 aattatggatctgtttggtgaagttgaagaagttcaacgtaaacctgccaagcctgtcaa
+    19681 accctggtcagatgaagtccgactcaaaggcgaaaaagacacattaggactttaccttac
+    19741 aggtcatccaattgatgtttatcgtcctgaactgaaatcatttattccagcaaaactcaa
+    19801 tgaagtgaccccaacacgccgtggtgtcacgactgtgtttgctggcttagttttagatgt
+    19861 tgccaactttccaaatcgtatggtaataacgctggatgatggtactgcgcgaattgaagt
+    19921 aagctgtaatcacgaacgttttcagcgattcaaagacatcgtggtggtagaacaggtcgt
+    19981 cgttattgagggtgaaatctacgaacgcgaaggctttgatcgtccaatggctcgtttaag
+    20041 taaagcttttagcttaaatgaaattcgtcaaaagcgtgcaaaccatattcgtattcaacc
+    20101 tgccgaagaacaaatatctaaaacattggctcatgatttacaaaatattattttgccctt
+    20161 ttgtaatgtcgatatgtgccaacatattccagtcatgctgacactcgaacagccctatgc
+    20221 aacggcagaagttcatcttggacaaaactggaaagtcgcgccattagacgaattattaat
+    20281 caagctgcgtgattactttggtaaagatgcaatctatatcgaatatcaagtcaaatccaa
+    20341 agcagccaaagcggctgaacccgttcgtagcgcaccgttaagcccacctccgcaagatat
+    20401 ctcgatggatgaagctatggatttatatcaggccgaagtctcacaatactcttaagtttt
+    20461 gatttggataatttatgaatactgctgacaatgcgtcaatcaatgatcaggaatattgac
+    20521 atgaatcagaccaccattgattcttgaatccatgtttatccaccatccacattcataagt
+    20581 ttaataaacaactgatccattacaagatttgactgcacattttgttcaatcaactgtttg
+    20641 gcatgttgtaaatcggcatagaaatcaaaaagcacttccaatgtataatttgatgctaaa
+    20701 tcctttaaatccagatcagtattcttacagacctgatctagcttgacacaaattaaatca
+    20761 cacaacaagtattcaaataatgtcaaccattctgaaaaaaccagctctttttgccacttt
+    20821 gatgaatagaataacggcatatttttttgatgtaccagcttgatccagtccatcaaaaat
+    20881 gcttcacgtttagcaaaccaatcagatttggcaacctcaatcgcctcaagcggcatatta
+    20941 ttggtcagattaagtaaaagctgtgcttgctcagaaggtagattgtcaaggtgctgctgt
+    21001 agatagtcatgtgcctgaacagtagaaacccgatccagagagaagtgctgtaaacgacta
+    21061 cgaatcgtggcaggaagttttaaatagtggtctgccagcaacacaatcaaaatacgctcg
+    21121 cctggctcttcaagagttttcaacagtgcattagatgaagcgatgtttagtgcttctgcg
+    21181 ggttcaatcacaatgacacgccaaccatctaccgtttgctgcacaaaaggtagaagttca
+    21241 cgtattttttctatcttgattttggcattttgctttttattgtcttcatctgtagtgata
+    21301 tgcacataattgggatgtgtatccgacttaagccactgacaacttacacactcaccacat
+    21361 gcaccctctggttttttatgggtacacagcacccacgccagaaaatgctgtgtgaaagca
+    21421 tctttaccgcaacccttctttccataaaataaaagcccatgccccacttgcgggaaacgg
+    21481 cgggtaagcgttgtccagacattttcctgccatggatacaccagattttcttgtttattc
+    21541 aaactcaccaatccatcttattcaaaataagaacgaggcaaagcattcaaacgctctaaa
+    21601 tatagttcggctatttcaaaactctttccaattttaagatcaggttactttatgtcgcag
+    21661 gcgaatgccaattttttggataactcaaaagtttcagccaataaaactgctgaatcaggt
+    21721 cagttaaaagaatttcgtactccgccacataacttagcaatagagcaggctgtacttgca
+    21781 gctttgatgactgttgctgaatcattcgagcaagtgaacgatttgctcaaagaaaatgat
+    21841 ttttatgcgacacgccacaaatatatttttcgtgctattgaaaaattagctcaagaaaac
+    21901 tcaccttatgatgcagtactggtaaatgattggttacttaaacaaaatttgctagacgca
+    21961 attggtggtgaagagtatttgatgcaactcatggcagactctccatcaagtttttataat
+    22021 cttgagacatatgcaagcaagattaaagaattttcaaccttgcgtagcatgattaaggtc
+    22081 agtagcgatattttgcaaaatgcttatgacaccaaagggcgtccagtcagtgaaatttta
+    22141 gatttagccgaaaccagtattttttcacttgccgagcagcataataacaataagaaagat
+    22201 gcagggcctaaatcgattagctcagtaacagcagatgtaattagcaaattagatgaattg
+    22261 tctaaacttgacggtaatattacaggtctaaccacaggctttttagagctcgacaataaa
+    22321 acctatggtatgcaatctggtgacatgattattgttgcagcacgtccatccatgggtaaa
+    22381 acgacttttgccatgaatctggtcgagagcgtgctatttaactgtaatctacctgcactg
+    22441 gtattctcgatggaaatgccagcagattcaattgccatgcgtttgatttcatcttacggt
+    22501 aaggttcatcaaggtcacctacgctctggtaagctggatggtgatgaatggtcaaaggta
+    22561 acaggtacgattctccagcttcaagagaagcatttatatattgatgactcctctgcttta
+    22621 ccccctaccgaactccgtgctcgtgcaagacgtattgcaaagcaacatggtggaaaattg
+    22681 ggttgtatcatgatcgattatctacaattgatgaaagttcctggtatgggcgataaccgt
+    22741 gtaggtgaaattggcgaaatctcacgaagcttaaaagcattagccaaagaaatggactgt
+    22801 cctgtcattgcgctttctcagcttaaccgaagtcttgaaaatcgccccaataaacgtcca
+    22861 gtaatgtccgatttacgtgaatctggtgcaatcgaacaggatgctgacttgatcatgttc
+    22921 atttatcgtgatgaggtctataacaaagaatctaaagaagcaggtacagccgaaattatt
+    22981 attggtaaacagcgtaatggtcctattggcacagttcgtctagcttttgaaggtcaatat
+    23041 actcggtttagtaacctctcacctgaatattacagtcagtatgatgacgaagaataaatt
+    23101 acattactatacacaggagtaatcagggtgcgccatgcaacagtttagggttcatttatt
+    23161 tagaccacttttatatactgctttaccctagcggtatttgattttcggattaactcgcat
+    23221 gaatagcaaatctcctatttttactgcacaatctgatgttgctcttcgcatccatgtgga
+    23281 tcgcgcagttcgccattactttgcacagttgcaaggtgagcaaccatcacaagtttacga
+    23341 catggtgctggcagaaatggagaaacctcttttatctgttgttctagaatatacgcgtgg
+    23401 taaccagacgcgcgccgctgaaattttaggactcaatcgtgggactttacgtaaaaagtt
+    23461 aaaagctcacggattgatgagtgaataaatgataaaatgctcacgtcctcgtgggcattt
+    23521 tttatgcctatttgttttaaccaaaaataaaaaaggaagccgaagcttcctttttatttg
+    23581 aaaaatatttactcagtagcagctgagtcgcttgattctgaatctatttcaggctgatca
+    23641 acttcagttatttcagattcagtagcaatttcttctaccacttcgatgaattcatcatct
+    23701 tcaaccgcttcaatcgaaacaacaccaactaaggtttcagcatcacttaaacgaatcagg
+    23761 cgaacaccctgtgcattacgacccgtcattgcgacttcggccgcgcgggtacgcactaaa
+    23821 gtaccgccgtctgaaatcagcatcagctctttagttccatcaatagatactgcgccaacc
+    23881 aactctccattacgctcggaagtcttaattgcaataacgcctttaccaccacgttttttg
+    23941 gttgggaagtcatttactggagtacgtttaccgtaaccatttgcactggcacataaaacc
+    24001 tcaccagtttcaggtacaacgactaacgatacaatacgactcaccacacttgaatcggtg
+    24061 gactcttctgaatcgtccaactcatcatgatccaactctgtgtcttcactatccacagca
+    24121 gcagccagcgtcacgcgcataccacgaacacctttcgctgtacgccccatagcacgcaca
+    24181 tcagtttctgcaaaacgaatcgctttaccctcattagagaacagcataatttgctgttga
+    24241 ccatcggtaattgcgacaccaatcaaggtatcttcttcgttaagttcaatagcgcgcaga
+    24301 ccatttgaacgaatattggcaaactgctctagttctacacgtttaactgttccagaagct
+    24361 gttgccataaagacataatgattttctaggaattcagttagaggtaaaattgcagtaatt
+    24421 gattcattggcatccagtggcaataaattcaccattggacgacctttagcgccacgagat
+    24481 gcttgaggtacttcaaatactttcagacggtacactttacctacattggtaaagcacaat
+    24541 acggttgcatggttagatgccacaatcagatgctgaataatatcgtcatctttcatcgat
+    24601 gttgcagatttaccacggccaccacggcgctgcgcttggtaatccgacaatggctgcgtt
+    24661 tttgcataacccgtttgtgaaacggtcaataccacctgctcttctggaatcaaatcttca
+    24721 cgacagaaatcgatacgtgattctacaatctgtgtacggcgctcatcaccatactgttgc
+    24781 aaaattaagctcaattcttcacgaatcacacccataagcagattaaaatcattcaaaatc
+    24841 gctgttaattcagcaatttgacctaaaatctcggtgtattctgcatgtaacttgtcttgc
+    24901 tctagacccgttaaacgatgtaaacgaagttctagaattgccgccacttgagtaggagat
+    24961 aagcgatacacttgctcagacagaccaaatggacgcgcaggatcttcaccttcaatctcg
+    25021 tctgggcgcacagatacagaacccgctttttcgagcagagcaataacgccaccgccagcc
+    25081 cattcaccagcttgtaaacgctcacgcgcttctgctgggtttgccgaggtcttgatcgtc
+    25141 tcaatgatatcgtcaatattggcaagcgctactgtaagaccttccaagatgtgaccacgt
+    25201 tcacgtgccttacgcaattcgaacatggtacgacgcgtcaccacttcttgacgatggcga
+    25261 ataaatgcagcaatgatatcttttagattcatcaattttggctgtccgttatccagacac
+    25321 accatattgatactaaatgagttttcaagctgggtatttaagaacaggttattcacaatg
+    25381 acctcagcgttttcaccacgcttcaagtcaatcgcaatacgcataccgtctttatcagac
+    25441 tcatcacgtaactctgaaattccttccagttttttctctttaaccagctcggcaatacgt
+    25501 tcaatgacgcgtgctttattgacctgatatggaatttcggtaaatacgatggtggtacga
+    25561 cccgttttttcatcttcttcaaaatgatatttgccacggatatgtaaacgacctttaccc
+    25621 gtacggtaagcatccacaatgcctgatttaccatagatgatgccacctgtcgggaaatct
+    25681 ggccctgtaatatgctccatcaaaccttcaatggaaatatttgggttatctgcataagcc
+    25741 aagcacgcatgaatcacttcattgagatggtgaggcgccatattggtcgccatacctact
+    25801 gcaataccagcagcgccgttaatcagcaaatttggaatgcgtgtcggaagaacatcagga
+    25861 atacgttctgaaccatcgtagttatctacccagtctacggtgtctttttcaagatcagcc
+    25921 aatagctcatgggtaagcttagtcatacgaacttcggtataacgcattgccgcagcacta
+    25981 tcgccatcgaccgaaccaaagttgccctgaccgtctaccaatagataacgcagactgaag
+    26041 tcctgcgccatacgcacgatcgtgtcgtaaacagcggtatcaccatgtgggtgatattta
+    26101 ccgatcacatcacccacgacacgtgccgattttttataggctttgttatagtcattgcct
+    26161 agctcatgcatggcataaagcacacgacggtgcacaggcttaaggccatctcttacatct
+    26221 ggtaatgcacgagatacaattacgctcatcgcataatctagatatgaatgcttgagttcg
+    26281 tcctcaatggcaatcggtctgatttccgatacgctcatgcatactccttgtatacagcaa
+    26341 gcgaaaaacctgctgcaatatgtcttgaaataaattgttattttaaaaactgcgcttgtc
+    26401 gttaggatatttctcgttatggctattcctcagcataccattgatcaaattctagatcgg
+    26461 actgatctggttgagttaataggccagagagtcaaactaaaaaaaacaggtagaacctat
+    26521 tcgggttgctgtccatttcatcaagaaaaaagcccttctttccatgtatatcgagacaag
+    26581 ggctattaccattgctttggctgtcaggccaacggtaatgccatccgttttttgatggat
+    26641 attgatgggcgtaactttattgatgtcatgcaggaactgtctagtaaatcgggcgttgaa
+    26701 cttcctaaagataactttgaacaaaagaaactttcctataagcgcaatacacaaaaacca
+    26761 gaaccgaaacctgttgtaaatactgaaaaatctgcaccatctcaccatgctgcaatatcc
+    26821 gaatcatcggaacagattgacggtttacaagcaccctcttactttgacgatccattcgca
+    26881 cagtttgatcaaagctatatgggttttgaagatgcccctcaagaaggcaatctttatgac
+    26941 ctattggaaaatgtagctcagttttatgaaaaacagctgccaaatagtaataaggcacag
+    27001 caatattttaaacaacgtggcttgagtgcagaaactattcaattctggcgtttgggttat
+    27061 gcacccgaagactggcagcaccttgaaaaagcctttccttatgatatcgaaggattaaag
+    27121 caagtgggactcatccgctcaagtgatagtggacgtgactttgacctgctacgtgagcgt
+    27181 gtcatcttcccgattcgtgatcataaagggcgtgtggtcggttttggcggtcgtgcgctg
+    27241 aatgatgaaatcaagcctaaatatatcaactcaccagactccgagattttccataaaaac
+    27301 cagttactttatggtctatatgaaggcagaaaactcaaggcaaaagactggttaatggta
+    27361 gaaggctatatggacgtgattgctttacagcaatatggcgtctatggtgcggtagcaacc
+    27421 ttaggcacagccagtaatgctgatcacttaaatacattatttaaacagaactctagaatc
+    27481 acgattgcctttgatggcgatgcagcagggcaaaaagcggcacgtcgaaccttggaaatt
+    27541 gcccttccctcactcaacgatggtcgagaactcaagttttttgtacttcccaaagagcat
+    27601 gacccagactcgctcattcgccgtgaaggattggaacattttcagcgcttacttgagcaa
+    27661 gcacccttactttccgattttatttttgcacatttaacacagcaacatgacatctctacg
+    27721 cctgagggcaaaagtcaggtcatgggcgagctgcgtgaactcacagagttattacccaaa
+    27781 caaggctcttttcgctacctgctcacacaatctttccgtgaaaagctcggtttggggcgt
+    27841 aaatggacgcctcaaatcagtcatgatgcctcgttatcctttaatatccagaccaaagat
+    27901 gaagattttgctgtagcattattgatgcagcatccttatctttatattcacttcgaggct
+    27961 ttgcgggcttttattgatccacaacaattactggctcaaatattagccatcattgaccgt
+    28021 gtctttgatgaattacccgatgatcaggaactggccacttattacgttttaggcgcctgc
+    28081 aatcagtttagtcatgaaattgcagatatcattgaacgtaccgacattcaaaccttaatg
+    28141 aatgcaccagaaactgccgataaacatgccaaagaatatgcgctgggcttgaaagaaaaa
+    28201 tatttgcgtcaaaagttaaaggcacctatttcattgattgaatcacgcaatctacgtcaa
+    28261 cagctcaatgaattaagcaaacagatcaacttaagattattatcttgaattatcgatcca
+    28321 gattgtttttaggcttgcgctgatgctcaaatacgtctcgccatgttaccaccaccaata
+    28381 aatgtgatatttgattttaatgtcgcactcatgaattctgctcaactcgcaaataattta
+    28441 catcagaaattaaattaggttgccatcccccagcttcacaatacgatgattgtgccagcc
+    28501 aaaaacctttgggagtaaaaacgcctagcataacattatccaacgccaatatttgaattg
+    28561 tatgacgcaaccaaggcaaaatttgtgcctcctgaatggctttttttaatggccaatgtc
+    28621 ctacacgtccgtacagatgaattttttctccgccttgtctgggaagtagctgcaaaggct
+    28681 gttcgaataattgtggtgataagcccatttgcatgggctgaatctgaaataccccagagg
+    28741 caagctgcaaggatgcatccatctgcaactcaatagtactcactacattagaaactaaat
+    28801 ctttttgcaaatatttatttttttcaacacgatataaaatattttggtagcgtacgtagt
+    28861 aatgatgattccagtgcaatgccgcttttgcatcagcttttgcacaaatgacttcctgtt
+    28921 gtactcgttccaccatttcaaatgctggccgataaatcgccttccctttcatccagaaag
+    28981 ataaaagctgtcgttgtcttgccagagaaagttgttgtaatcgactaagatctagatgat
+    29041 taaggtcaccacactgattcaaatcttgctgcaaaacctcatgtagaatttcatcagcat
+    29101 cctgcatcaaaatactggttcgactgatcgcttcctgcattttgggaaaacgcttttgaa
+    29161 ggacaggccaaacagtttcacggcaccatgcccgatcataagtggtatcaaagttagtca
+    29221 aatcttggatataaggtattttaagatgttctacccagtgttcaatctgttgtcttgaaa
+    29281 cagataacataggccgccagcagcatatattttttttctgttcgatttctttcatggcac
+    29341 ccagccctttcacaccactgccagagagtaacctgagtaaaacggtttcagtctgatctt
+    29401 gctgatgatgggccaatactaaaacttcattcgattttaaatgcgattcaaacgcagcat
+    29461 atcgtgcttctctggcctgattttccagattacccgtatcaacaataaccggctggatag
+    29521 tgaagggaatatgagactgttgtgcaaaattttgaacaaacactccccatgcccgactac
+    29581 tggattgtagctggtgatcgatataaatcgcacgtactttatgaggaaacagttccgaca
+    29641 tcaaatgcagcaataacatggaatccatgccaccgctgcatccaattaagaatacggtat
+    29701 cagcaggaaattgctgagcctgtattaagaggcgatgcctaaattttcgctgccaaattt
+    29761 catcaaacgttggtaacgcgcttcgcatcgttcatctgcatccatagcaagcaattcatc
+    29821 tagcgcctgttttaacacgctgtttttttcttgtttgcttgattcgcttgtctatcatac
+    29881 agcaggccttagtgtttttgctcaggggtcattggcaacgaaataacggcagtttgtgcc
+    29941 gcaggaggtgaaaacatgcgtaactgggtgactgcccgtgaaccaatttgcgctgttgca
+    30001 ccaaaggtttgttgctcaatcagcaaacgcccccattcggcattcagatcatctttttca
+    30061 cgcatgtatgtactcaactcacgataatcatgtcggtattcgaatacctgaaacaccacc
+    30121 atgattgcactacaaaataccagtaaaaccatcactgtatacaccacaactctttttaca
+    30181 ggtgacggttcagatattccaagtttttcgttcttgtccatgatttgcctttatactaaa
+    30241 cgttcagccacacgaagccatgcactacgtgtatacatcaggttctctctaatcaaccaa
+    30301 tacaatatttatttgtatcgtctaaaatggtaagtcatcgtctaaatcggctggtgcagg
+    30361 ttgctgcggtgcttttggcacataaccaccttgattactgttattgctaccgccattgcc
+    30421 ataaccactgccttgattgaagttgttattgccgctgttattgtaaccgccaccttggtt
+    30481 atagcctgtgttttgctgcggcgcattattgttaaagcgtggctgattaaaatcgttacc
+    30541 accgctcattggctgatcgccttgtgaacgtgtatctagcatttgcatctggtcaccacg
+    30601 aatttcggtggtataacgctcctgaccattctggtctgtccactggcgtgtacgcaatga
+    30661 accttcaatataaactttagagcctttacgcaggtattgttgtgcaatttcacctaaacg
+    30721 attatgcagtacaatacggtgccattcggtctgttctttacgctcaccggtacttttatc
+    30781 tgtccacgcctcgctggttgcaattgaaaattgtgtcagagatccaccatttggaaaagt
+    30841 tttagtttccggatcacgacccaaagtaccaaccaaaataaccttatttacaccacgcat
+    30901 gagctgttttcttcctattacatttctatgttttactttataagagttatataaaaaagg
+    30961 tagtgaatctcactaccttttggctatctttatgcaaaaactatttacgttgttgatttt
+    31021 taagataatcctgaatactcattggagatgagcgaggtgatgaacttggtgcagcagagg
+    31081 cctcagttccttgacgtttgctaatcgcaggtacatcatcttcatctacagcatgtgccg
+    31141 ttggcacatgaacatgatgtggaacatgacgtttgcgtggctctgcttcgctcgcgttac
+    31201 gggttaaacctgttgctataactgtcacacgtaactcatcacgtgcttctggatcaaaga
+    31261 ccgtaccgtagaaaatttcaccttcatccagatcgacaatctggttgactacatcggtaa
+    31321 taatttctgtttcacgcaaggtaatatcatcaccaccagtaatgttgatcaatacacctt
+    31381 tagcattgatgatattcacattatctaacaatggactacgaatggcctgctctgcagcct
+    31441 gacgtgcacgatcttcaccacgacctaaaccgacacccatcatcgcgtaaccacgcgtac
+    31501 tcatggcagttttcaaatcggcgaagtcaaggttaatatgaccacgattaaccacaagat
+    31561 caaagatactacgtaccgcattaagcaatacgtcatctgcctttttgtaggcatcgcgca
+    31621 ttgaaatgtcgccatagacactgagcaaacgctggtttggaataataatcaaagagtcga
+    31681 catgtgcttcgagtgcttctattcctttttcagcagcacgctgacgacggcgaccttcaa
+    31741 aattaaacggtgtcgtaacaacacccaccgttaaaattcccatttcctgtgcgatttcag
+    31801 caacgactggtgcagcacctgtacctgttccaccccccatacctgccgtcacaaatacca
+    31861 tatctgtgccttcaagatgttgacgaatcatttcgcggctttcttcacctgcaatctgac
+    31921 ccacttctggatttgcacctgcacccaacccgcgtgtactttgctctccgagctgaatct
+    31981 tgaatggcgcattcatactgtcaagtgcttgcttgtctgtattggcacaaacaaatttca
+    32041 cacctttaatatcagattgcaccatgtgctgtacggcattaccaccgccaccaccaacac
+    32101 caaacacagtgaaacgggcttgaccgttgctatcgcttagttcatcttctataaattcaa
+    32161 atgaggccatgacctgtagagttccctaattcatttggcagtcacttcagcccgtatact
+    32221 caatttactattacaacatcccaacaatattccctaaaaacacatacaccttaaaagatg
+    32281 gcttttagcttggtattcaaggtattccagccatttgcaacacgattccataacgaacgt
+    32341 tgtgacgcttcttcggaatcttcgaccgtatcttgcagctcgctttgactgaacatcaat
+    32401 aaacccgctgctgtggcatacatagaacgtcgaatcgaagcttgatgctgatcatcagca
+    32461 taaacctgtaatggcggattccccagatgtgcagaaacacccagtatacgacgtgccaaa
+    32521 ctaatcattccctcaatttggcaagcgtcacctgttagtaccacaccatgatataaacca
+    32581 tgaatggcaccgcttcgttcaagttcatcacgtacttgtccaagaatttcttcataacgc
+    32641 gcaataatgatttcagcaagttcaatacgactaatggtctgtgggccatcaatggcttgc
+    32701 acttgaatcatttgatcaggcttaatggcgcttaaatcgacgcaaccatgtagaattttg
+    32761 atgcgttcagcttcttctgtcgtcgtttgtaaaacggccgcaatatcgcgcgttacattt
+    32821 tcgccaccacgctgcaacgttctcgcaagcgccaaacgaccatccagatacaccgcaata
+    32881 ttggttgtgcctgccccaatatccaacaaacagacaccgtactctttttcatctttaagc
+    32941 aagctggcttcggctgttgcaagacaggacaccaccattttttcgacaccgatactggca
+    33001 cctttcatggcccgatccagattttgcatgatactgatcggcatcatcatcaactgataa
+    33061 tgtccagtcatactatgtgccgacatattgatcggattctgaacccattctgatgaatca
+    33121 tccagttcaaaaccaagtggtacagcactggccaagtaataatctggcgtgacatggctt
+    33181 gcttttgcaagttctaacgcgcgcacgacctcattcgtggtaatagtatgatcagctttc
+    33241 gcaatagggatacgacccgaagcataaaaactttgtaattctgttgttggaatcgacacc
+    33301 catgctgtgtgaacacggcattcagccatgttttccgcttcagcaacggcatttttaatt
+    33361 gcggagatgactttatcgagactaactattttgcctttattcatgccacggttacgtgca
+    33421 gtggccatcccgatgacctgaatgttatccggtgcgtgaactttaccaatcaaaactgaa
+    33481 actttatgtgtcccaatgtcaatcgcaacaaccgagggaacagcttcactcattactcac
+    33541 taccatttgttcgttgtctaatatggcaaaaaatgcctgttatgcaatacggatactcaa
+    33601 aaggtacactaacctcatatcacgataatgcatttaaacgctgatatcggccaaattgcc
+    33661 tttttgttctagccaatgcttacggtcggcagagcgtttcttggccagtagcttgtcaag
+    33721 taaccctgcggtcatatgtgcatcatccagatcgagctgaaccagtctgcgagtatctgg
+    33781 gtccatagtggtttcacgcagctggctggcgttcatttcacccagacctttaaatcgggt
+    33841 aatttgcggatttttagtttttagcttgctcaggattgcatcgagttcttcatcatccaa
+    33901 ggcataaaacacatccttgccagcatcgattcgaaacaaaggcggcatggccacatacaa
+    33961 atgcccttcttcgaccaaagcaggaaaatgcttcacaaacaaagcgcacagcaaagtggc
+    34021 aatatgcaaaccgtccgagtccgcatcggccaaaatacagatcttgccatagcgtaattc
+    34081 agataaatcatcactacctgggtcgaccccaattgcaatcgcaatatcatggacttcctg
+    34141 tgatgccagcacttcatctgaagacacttcccaagtatttagaattttgccgcgaatcgg
+    34201 catgatcgcctgaaagtttttatcgcgtgcctgtttggcgctaccacctgccgaatctcc
+    34261 ttcgacaataaacagctccgattcttcacgggtttgcccgacacaatcggcaagctttcc
+    34321 aggtaaggctggcccagacacaatctttttacgttcaactttttttgctgctttaaggcg
+    34381 gcgccctgctttagaaatggccatttcagccaattgcattgctatttctgagttttggtt
+    34441 gagccacaatgcaaaagcatctttggcaatattcaacacaacgccagaggcttcacgact
+    34501 cgacaagcgctctttggtctgccctgaaaactggggttcctgaaatttaagcgacaaaat
+    34561 aaaattgacaccatcccaaacatcttctgcagaaagtttaagattacggggtaataaatt
+    34621 gcgtaattcacaaaactcacgcaacgcctctgtgaccccagagcgtaaaccattgacatg
+    34681 cgtaccgccttgcgcagtggggatcagattgacgtaactttcttgaatctgctcgccacc
+    34741 ttcgacattccagcaaatagcaaattcacaactggcacgttcgacctgcccactgcttaa
+    34801 aaatgcaggatttggcagaatgtcacgatcttccaactcatccattaaataatcgacaag
+    34861 accattttcaaactgccattcaatggtttcgttattaatttcatcgacatagataatttg
+    34921 taagcctgcagccaatactgctttggcttttaagttatgtttgagtgctttgagtgcaaa
+    34981 tttaggactatcaaaatatttggcttctggccagaaatgtactgtcgtgccactggcgcg
+    35041 cttgggtgctttacccgctaagacttcaagtggtgcaacaggttcaccgtgttcaaacgc
+    35101 catcttgtaaagattgccctgacgttgtacctcgacttcaacacgagaagacaatgcgtt
+    35161 tacaactgaaattccgaccccatgcagaccaccagaaaactggtaattgtcggtactaaa
+    35221 tttaccgcctgcatgtaatttagtcaggataatctcgataccactttgaccatattctgg
+    35281 atgaatatccacaggcatcccacggccattgtcttctaccgcaagcgaaccatcctgata
+    35341 aaccgtgacccgaattttattggcatgtcccgccagtgcttcatcgacagcattatcaat
+    35401 cacttcctgcgccaagtggttcggacgagtggtatcggtatacattccaggacgacggcg
+    35461 aactggatctaaacctgacaggacttcaagcgattgagccgtatattgtgacacgttgtg
+    35521 ggacttcctttattttagcgaataagttaaaaatgccagtatga
+//

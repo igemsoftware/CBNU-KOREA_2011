@@ -1,0 +1,324 @@
+LOCUS       mc_NC_000915            3460 bp    DNA     circular BCT 24-Jan-2011
+DEFINITION  Helicobacter pylori 26695, minimal genome.
+ACCESSION   mc_NC_000915
+VERSION     NC_000915.1  GI:15644634
+DBLINK      Project: 57787
+KEYWORDS    .
+SOURCE      Helicobacter pylori mc_NC_000915
+  ORGANISM  Helicobacter pylori 26695
+            Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+            Helicobacteraceae; Helicobacter.
+REFERENCE   1  (bases 1 to 1667867)
+  AUTHORS   Tomb,J.-F., White,O., Kerlavage,A.R., Clayton,R.A., Sutton,G.G.,
+            Fleischmann,R.D., Ketchum,K.A., Klenk,H.P., Gill,S.,
+            Dougherty,B.A., Nelson,K., Quackenbush,J., Zhou,L., Kirkness,E.F.,
+            Peterson,S., Loftus,B., Richardson,D., Dodson,R., Khalak,H.G.,
+            Glodek,A., McKenney,K., Fitzegerald,L.M., Lee,N., Adams,M.D.,
+            Hickey,E.K., Berg,D.E., Gocayne,J.D., Utterback,T.R.,
+            Peterson,J.D., Kelley,J.M., Karp,P.D., Smith,H.O., Fraser,C.M. and
+            Venter,J.C.
+  TITLE     The complete genome sequence of the gastric pathogen Helicobacter
+            pylori
+  JOURNAL   Nature 388 (6642), 539-547 (1997)
+   PUBMED   9252185
+REFERENCE   2  (bases 1 to 1667867)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-SEP-2001) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1667867)
+  AUTHORS   Tomb,J.-F., White,O., Kerlavage,A.R., Clayton,R.A., Sutton,G.G.,
+            Fleischmann,R.D., Ketchum,K.A., Klenk,H.P., Gill,S.,
+            Dougherty,B.A., Nelson,K., Quackenbush,J., Zhou,L., Kirkness,E.F.,
+            Peterson,S., Loftus,B., Richardson,D., Dodson,R., Khalak,H.G.,
+            Glodek,A., McKenney,K., Fitzegerald,L.M., Lee,N., Adams,M.D.,
+            Hickey,E.K., Berg,D.E., Gocayne,J.D., Utterback,T.R.,
+            Peterson,J.D., Kelley,J.M., Cotton,M.D., Weidman,J.M., Fujii,C.,
+            Bowman,C., Watthey,L., Wallin,E., Hayes,W.S., Borodovsky,M.,
+            Karp,P.D., Smith,H.O., Fraser,C.M. and Venter,J.C.
+  CONSRTM   NCBI Microbial Genomes Annotation Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-AUG-1997) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AE000511.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3460
+                     /organism="Helicobacter pylori 26695"
+                     /mol_type="genomic DNA"
+                     /strain="26695"
+                     /db_xref="taxon:85962"
+     gene            51..1094
+                     /gene="recA"
+                     /locus_tag="HP0153"
+                     /db_xref="GeneID:898827"
+     CDS             51..1094
+                     /gene="recA"
+                     /locus_tag="HP0153"
+                     /note="catalyzes the hydrolysis of ATP in the presence of
+                     single-stranded DNA, the ATP-dependent uptake of
+                     single-stranded DNA by duplex DNA, and the ATP-dependent
+                     hybridization of homologous single-stranded DNAs"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="recombinase A"
+                     /protein_id="NP_206952.1"
+                     /db_xref="GI:15644782"
+                     /db_xref="GeneID:898827"
+                     /translation="MAIDEDKQKAISLAIKQIDKVFGKGALVRLGDKQVEKIDSISTG
+                     SLGLDLALGIGGVPKGRIIEIYGPESSGKTTLSLHIIAECQKNGGVCAFIDAEHALDV
+                     HYAKRLGVDTENLLVSQPDTGEQALEILETITRSGGIDLVVVDSVAALTPKAEIDGDM
+                     GDQHVGLQARLMSHALRKITGVLHKMNTTLIFINQIRMKIGMMGYGSPETTTGGNALK
+                     FYASVRIDIRRIASLKQNEQHIGNRAKAKVVKNKVAPPFREAEFDIMFGEGISKEGEI
+                     IDYGVKLDIVDKSGAWLSYQDKKLGQGRENAKALLKEDKALADEITLKIKESIGSNEE
+                     IMPLPDEPLEEME"
+     misc_feature    162928..163923
+                     /gene="recA"
+                     /locus_tag="HP0153"
+                     /note="recombinase A; Provisional; Region: recA; PRK09354"
+                     /db_xref="CDD:169810"
+     misc_feature    162943..163920
+                     /gene="recA"
+                     /locus_tag="HP0153"
+                     /note="RecA is a  bacterial enzyme which has roles in
+                     homologous recombination, DNA repair, and the induction of
+                     the SOS response.  RecA couples ATP hydrolysis to DNA
+                     strand exchange; Region: recA; cd00983"
+                     /db_xref="CDD:29984"
+     misc_feature    order(162967..162972,162976..162981,162988..162990,
+                     163000..163014,163219..163224,163228..163248,
+                     163261..163266,163570..163572,163582..163584,
+                     163726..163728,163864..163866)
+                     /gene="recA"
+                     /locus_tag="HP0153"
+                     /note="hexamer interface; other site"
+                     /db_xref="CDD:29984"
+     misc_feature    163126..163149
+                     /gene="recA"
+                     /locus_tag="HP0153"
+                     /note="Walker A motif; other site"
+                     /db_xref="CDD:29984"
+     misc_feature    order(163132..163152,163216..163218,163228..163230,
+                     163237..163239,163360..163362,163510..163512,
+                     163612..163614,163651..163653,163717..163728)
+                     /gene="recA"
+                     /locus_tag="HP0153"
+                     /note="ATP binding site; other site"
+                     /db_xref="CDD:29984"
+     misc_feature    163348..163362
+                     /gene="recA"
+                     /locus_tag="HP0153"
+                     /note="Walker B motif; other site"
+                     /db_xref="CDD:29984"
+     gene            1195..1626
+                     /gene="rnhA"
+                     /locus_tag="HP0661"
+                     /db_xref="GeneID:899305"
+     CDS             1195..1626
+                     /gene="rnhA"
+                     /locus_tag="HP0661"
+                     /EC_number="3.1.26.4"
+                     /note="An endonuclease that specifically degrades the RNA
+                     strand of RNA-DNA hybrids"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribonuclease H"
+                     /protein_id="NP_207455.1"
+                     /db_xref="GI:15645285"
+                     /db_xref="GeneID:899305"
+                     /translation="MQEIEIFCDGSSLGNPGPGGYAAILRYKDKEKTISGGEEFTTNN
+                     RMELRALNEALKILKRPCRITLYSDSQYVCQAINVWLANWQKKNFSKVKNVDLWKEFL
+                     EVSKGHSIVAVWIKGHNGHAENERCDSLAKLEAQKRVKTTT"
+     misc_feature    709545..709937
+                     /gene="rnhA"
+                     /locus_tag="HP0661"
+                     /note="RNase H (RNase HI) is an endonuclease that cleaves
+                     the RNA strand of an RNA/DNA hybrid in a not
+                     sequence-specific manner. One of the important functions
+                     of RNase H is to remove Okazaki fragments during DNA
+                     replication.  RNase H knockout mice lack...; Region:
+                     RnaseH; cd06222"
+                     /db_xref="CDD:119393"
+     misc_feature    order(709557..709568,709656..709664,709671..709673,
+                     709737..709739,709872..709874,709926..709928)
+                     /gene="rnhA"
+                     /locus_tag="HP0661"
+                     /note="RNA/DNA hybrid binding site; other site"
+                     /db_xref="CDD:119393"
+     misc_feature    order(709557..709559,709671..709673,709737..709739,
+                     709914..709916)
+                     /gene="rnhA"
+                     /locus_tag="HP0661"
+                     /note="active site"
+                     /db_xref="CDD:119393"
+     gene            1727..2737
+                     /gene="ruvB"
+                     /locus_tag="HP1059"
+                     /db_xref="GeneID:899594"
+     CDS             1727..2737
+                     /gene="ruvB"
+                     /locus_tag="HP1059"
+                     /EC_number="3.1.22.4"
+                     /note="promotes strand exchange during homologous
+                     recombination; RuvAB complex promotes branch migration;
+                     RuvABC complex scans the DNA during branch migration and
+                     resolves Holliday junctions at consensus sequences; forms
+                     hexameric rings around opposite DNA arms; requires ATP for
+                     branch migration and orientation of RuvAB complex
+                     determines direction of migration"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Holliday junction DNA helicase RuvB"
+                     /protein_id="NP_207850.1"
+                     /db_xref="GI:15645673"
+                     /db_xref="GeneID:899594"
+                     /translation="MKERIVNLETLDFEISQEVSLRPSLWEDFIGQEKIKSNLQISIC
+                     AAKKRQESLDHMLFFGPPGLGKTSISHIIAKEMETNIKITAAPMIEKSGDLAAILTNL
+                     QAKDILFIDEIHRLSPAIEEVLYPAMEDFRLDIIIGSGPAAQTIKIDLPPFTLIGATT
+                     RAGMLSNPLRDRFGMSFRMQFYNPSELALIIKKAAVKLNQDIKQESADEIAKRSRGTP
+                     RIALRLLKRVRDFALVKNSSLMDLNITLHALNELGVNELGFDEADLAYLSLLANAQGK
+                     PVGLNTIAASMREDEGTIEDVIEPFLLANGYLERTAKGRIATPKTHELLKIPTLNPQT
+                     LF"
+     misc_feature    1120729..1121715
+                     /gene="ruvB"
+                     /locus_tag="HP1059"
+                     /note="Holliday junction DNA helicase RuvB; Reviewed;
+                     Region: ruvB; PRK00080"
+                     /db_xref="CDD:166770"
+     misc_feature    1120810..1121262
+                     /gene="ruvB"
+                     /locus_tag="HP1059"
+                     /note="The AAA+ (ATPases Associated with a wide variety of
+                     cellular Activities) superfamily represents an ancient
+                     group of ATPases belonging to the ASCE (for additional
+                     strand, catalytic E) division of the P-loop NTPase fold.
+                     The ASCE division also includes...; Region: AAA; cd00009"
+                     /db_xref="CDD:99707"
+     misc_feature    1120900..1120923
+                     /gene="ruvB"
+                     /locus_tag="HP1059"
+                     /note="Walker A motif; other site"
+                     /db_xref="CDD:99707"
+     misc_feature    order(1120903..1120926,1121053..1121055,1121200..1121202)
+                     /gene="ruvB"
+                     /locus_tag="HP1059"
+                     /note="ATP binding site; other site"
+                     /db_xref="CDD:99707"
+     misc_feature    1121041..1121058
+                     /gene="ruvB"
+                     /locus_tag="HP1059"
+                     /note="Walker B motif; other site"
+                     /db_xref="CDD:99707"
+     misc_feature    1121236..1121238
+                     /gene="ruvB"
+                     /locus_tag="HP1059"
+                     /note="arginine finger; other site"
+                     /db_xref="CDD:99707"
+     misc_feature    1121485..1121706
+                     /gene="ruvB"
+                     /locus_tag="HP1059"
+                     /note="Holliday junction DNA helicase ruvB C-terminus;
+                     Region: RuvB_C; pfam05491"
+                     /db_xref="CDD:147589"
+     gene            complement(2838..3410)
+                     /gene="maf"
+                     /locus_tag="HP1240"
+                     /db_xref="GeneID:898981"
+     CDS             complement(2838..3410)
+                     /gene="maf"
+                     /locus_tag="HP1240"
+                     /note="Maf; overexpression in Bacillus subtilis inhibits
+                     septation in the dividing cell"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Maf-like protein"
+                     /protein_id="NP_208032.1"
+                     /db_xref="GI:15645854"
+                     /db_xref="GeneID:898981"
+                     /translation="MELILGSQSSTRANLLKEHGIKFEQKALYFDEESLKTTDPREFV
+                     YLACKGKLEKAKELLANNCAIVVADSVVSVGNRMQRKAKNKQEALEFLKRQNGHEIEV
+                     LTCSALISPVLEWLDLSVFRARLKAFDPSEIEKYLESGLWQESAGCVRLEDFHKPYIK
+                     SSSENLSVGLGLNVEGLLGALKLGAKLSSL"
+     misc_feature    complement(1313704..1314180)
+                     /gene="maf"
+                     /locus_tag="HP1240"
+                     /note="Nucleotide binding protein Maf. Maf has been
+                     implicated in inhibition of septum formation in
+                     eukaryotes, bacteria and archaea, but homologs in
+                     B.subtilis and S.cerevisiae are nonessential for cell
+                     division. Maf has been predicted to be a nucleotide-
+                     or...; Region: Maf; cd00555"
+                     /db_xref="CDD:29954"
+     misc_feature    complement(order(1313944..1313946,1313980..1313982,
+                     1314034..1314036,1314091..1314093,1314151..1314153,
+                     1314166..1314168))
+                     /gene="maf"
+                     /locus_tag="HP1240"
+                     /note="active site"
+                     /db_xref="CDD:29954"
+     misc_feature    complement(order(1313833..1313850,1314052..1314054))
+                     /gene="maf"
+                     /locus_tag="HP1240"
+                     /note="dimer interface; other site"
+                     /db_xref="CDD:29954"
+ORIGIN      
+        1 taggctaggatttgatagaataaacaaatcaaattcaataaggtaatttaatggcaatag
+       61 atgaagacaaacaaaaagcgatttctttagcgatcaaacaaattgataaggtttttggta
+      121 agggggcgttggtgcgccttggggataagcaagtagaaaagattgactctatttctacag
+      181 gctcgttagggttggatctggctttagggattgggggcgttccaaagggtaggatcattg
+      241 aaatttatgggccagagtcaagtgggaagaccactctaagcttgcatattattgcagaat
+      301 gccaaaaaaatggcggcgtgtgcgcgttcattgacgctgagcatgccctagatgtgcatt
+      361 acgctaagagattgggcgtggatacggaaaatctactcgtttcccaacctgatacaggcg
+      421 agcaagctttagagattttagaaacgatcaccagaagcggagggattgatttagtggtgg
+      481 tggattctgtggcggctcttacgcctaaagcggagattgatggggatatgggcgatcagc
+      541 atgtgggcttgcaagcaaggcttatgagccatgcgttaagaaaaatcaccggtgtcttgc
+      601 acaagatgaacactactctcatttttatcaatcaaatcaggatgaagattggcatgatgg
+      661 gttatgggagtccagagaccacaaccggaggtaacgccttaaaattctatgcgagcgtta
+      721 ggattgatattagaaggattgcctccctcaaacaaaacgaacagcatatcggtaataggg
+      781 ctaaagccaaagtggttaaaaataaagtcgctccgccttttagagaagcggaatttgaca
+      841 tcatgtttggggaagggatttctaaagagggcgaaatcattgattacggtgtgaaattag
+      901 acattgtggataagagtggggcatggcttagctaccaggataaaaagctagggcaaggca
+      961 gagaaaacgctaaagccttactgaaagaagacaaagccctagcggatgaaatcactctta
+     1021 agattaaagagagtattggctctaatgaagagatcatgcccttaccggatgagcctttag
+     1081 aagaaatggaataaaaaggattttgatgctaaccattaaagatattcatgctttagaagt
+     1141 gatgtatggatatggtgcttaaaatctctaaagaaagctatgggagtggattgaatgcaa
+     1201 gaaattgaaattttttgcgatggctcttctttaggcaatcccgggccaggcggttatgcg
+     1261 gcgattttacgctataaagataaagaaaaaaccatcagtgggggcgaagaattcaccacg
+     1321 aataaccgcatggaattaagagcgctcaatgaagcgttaaaaattttgaaacgcccatgc
+     1381 cgtatcacgctttatagcgattcgcaatacgtgtgccaagcgatcaatgtgtggctagct
+     1441 aactggcaaaaaaagaatttttctaaagttaaaaatgtggatttatggaaagaattttta
+     1501 gaagtctctaaagggcattctattgtggctgtttggatcaaggggcataacgggcatgcc
+     1561 gagaatgaacgatgcgatagcctcgctaaattagaggcgcaaaaacgggtcaaaacgacc
+     1621 acttaaagggaaaaatgatgaaaaacaaacgctctcaaaacagcccttacataacggatg
+     1681 atgtgaaaaagggaaacttccctaacgaattagaaagttatcattaatgaaagaacggat
+     1741 agtcaatttagaaactttggattttgaaatttctcaagaagtgagtttgcgccctagtct
+     1801 ttgggaagattttatcggtcaagaaaagattaaaagcaatttgcaaatttctatttgcgc
+     1861 ggctaaaaaacgccaagaaagtttggatcacatgcttttttttggcccgcccggtttggg
+     1921 taaaacttcaatcagccatatcatcgctaaagaaatggaaaccaatatcaagatcaccgc
+     1981 cgctcccatgatagaaaaaagcggtgatttagccgccattttgaccaatttgcaagctaa
+     2041 agacattctttttattgatgaaatccaccggctcagcccagcgattgaagaggttttata
+     2101 cccggcgatggaagattttaggttggatattatcataggctcaggcccagcggctcaaac
+     2161 cattaaaattgatttaccccctttcactctcatcggcgctaccaccagagccggaatgct
+     2221 ctctaaccccttaagagacagatttggcatgagttttagaatgcaattttataaccctag
+     2281 cgaactggccctcatcattaaaaaagctgccgttaaactcaaccaagacatcaaacaaga
+     2341 aagtgctgatgaaatcgctaaaaggagtagaggcacgccaaggatcgctttaaggctttt
+     2401 aaaaagggtgcgcgattttgcgctagtcaaaaattcaagcttgatggatttaaacatcac
+     2461 tttgcatgctttgaatgaattaggcgtgaatgaattaggctttgatgaagcggatttggc
+     2521 gtatttatctttgttggctaacgctcaaggaaagccggtgggtttgaacacgattgcagc
+     2581 atctatgagagaagatgaaggcacgattgaagacgtgattgagccttttttactcgctaa
+     2641 tggttatttagagcgcaccgctaaaggcagaatcgccacgcctaaaacccatgagctctt
+     2701 aaaaatccccactttaaacccccaaactttattttaatcttgtttagaaagaaaattaca
+     2761 ctacaataacgataaaattttaaaggggttggctagaaaatagtattgttgagtgtttta
+     2821 aaacaaaataacagcgtttataatgatgaaagtttagcccctaattttagcgcccccaac
+     2881 aagccttccacattcagccccaaccccacgctcaaattctcgcttgagcttttaatatag
+     2941 ggcttatgaaagtcctctaaccgcacacagcccgcgctttcttgccacaagccgctctct
+     3001 aaatatttttctatctcgctaggatcaaacgcctttaaacgcgctctaaaaaccgataga
+     3061 tccagccattccaacacaggagaaatcaatgcagagcaggttaaaacctctatttcatga
+     3121 ccattttggcgttttaaaaattcaagggcttcttgcttgtttttagcttttcgttgcatg
+     3181 cgattacccacgctcaccacgctatcagccaccacgatagcgcaattattcgcaagtaat
+     3241 tctttagctttttctaatttccccttgcacgccaaatagacaaactccctagggtctgtg
+     3301 gtttttaggctttcttcatcaaaatagagcgctttttgttcaaacttaatcccatgctct
+     3361 tttaagagattcgccctagtgctggattgagagcctaaaataagctccatgctatccctc
+     3421 taaagctttaagagcggtatttttcgctaaattgagtgcg
+//
